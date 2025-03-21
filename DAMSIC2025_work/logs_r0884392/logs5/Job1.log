@@ -1,0 +1,117 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = DAMSIC
+	Cell         = demo_SCAmplifier_STB_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB
+	Results Loc  = /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro
+	Project Dir  = /users/students/r0884392/simulation
+	Setup DB loc = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/demo_SCAmplifier_STB_TB/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+Loading monte.cxt 
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [ STB ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var CP2 = "19.6587245419517e-12"
+Setting var C_OTA = "100f"
+Setting var Cfb = "0.2p"
+Setting var Cin = "2p"
+Setting var Cl = "2p"
+Setting var F_POLE2 = "8.1G"
+Setting var INCM = "0.5"
+Setting var OUTCMRef = "0.5"
+Setting var Vin = "0"
+Setting var alpha = "0.1"
+Setting var fin = "100k"
+Setting var fsw = "60M"
+Setting var gm_OTA = "70m"
+Setting var ro_OTA = "1M"
+Setting var ron = "5"
+Setting temp(T) = 27
+Setting var vdd = "1.1"
+
+*Info*    Netlist Directory =
+          /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Loading hnlInit.cxt 
+Loading seCore.cxt 
+Begin Incremental Netlisting Mar  7 10:42:50 2025
+WARNING (OSSHNL-160): The primitive, 'analogLib/diffstbprobe/spectre', was not used in the last netlisting session in this
+current run directory. Therefore, re-netlisting all cell views where this
+primitive is instantiated.
+
+WARNING (OSSHNL-195): The value of the property "nlAction" on instance 'I22' in cell 'demo_SCAmplifier_STB_TB', view
+'schematic', has changed since the last netlisting session in the current run
+directory. Some cell views will be re-netlisted.
+
+Loading json.cxt 
+End netlisting Mar  7 10:42:51 2025
+
+Netlisting Statistics:
+	Number of components:   26
+
+	Elapsed time:          1.0s (26.00/s)
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ STB ] for Point ID (0 1).
+
+Delete psf data in /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+Loading paraplot.cxt 
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (0 1) on testbench [ STB ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

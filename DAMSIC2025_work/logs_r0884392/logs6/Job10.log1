@@ -1,0 +1,129 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = DAMSIC
+	Cell         = SCAmplifier_Transient_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1
+	Results Loc  = /users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro
+	Project Dir  = /users/students/r0884392/simulation
+	Setup DB loc = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/SCAmplifier_Transient_TB/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (2 1) on testbench [
+          DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var C_OTA = "100f"
+Setting var Cfb = "0.23p"
+Setting var Cin = "2.3p"
+Setting var Cl = "2p"
+Setting var INCM = "0.5"
+Setting var OUTCMRef = "0.5"
+Setting var RSW_OFF = "100M"
+Setting var RSW_ON = "1"
+Setting var VSW_TH = "0.55"
+Setting var Vin = "50m"
+Setting var alpha = "0.01"
+Setting var fin = "100K"
+Setting var fsw = "60M"
+Setting var gm_OTA = "13m"
+Setting var ro_OTA = "1.5M"
+Setting temp(T) = 27
+Setting var vdd = "1.1"
+
+*Info*    Netlist Directory =
+          /users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1
+
+
+*Info*    Creating Netlist for Point ID (2 1)
+
+generate netlist...
+Begin Incremental Netlisting Mar 11 11:27:52 2025
+End netlisting Mar 11 11:27:52 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ]
+          for Point ID (2 1).
+
+Delete psf data in /users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+reading simulation data...
+      ...successful.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre at time = 116.838 ns during
+          transient analysis `tran'.
+Error found by spectre at time =
+          116.838 ns during transient analysis `tran'.
+ERROR
+          (SPECTRE-16927): Cannot run the simulation because
+          transient analysis has reached the maximum allowed number
+          of timesteps with timestep size of 
+'minstep', in a period
+          of 5% of stop time. Use the 'max_minstep_nonconv' option to
+          adjust the maximum allowed number of convergence failures
+          with 'min
+step', and rerun the simulation.
+
+
+
+
+
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (2 1) on testbench [
+          DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

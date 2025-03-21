@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Feb 12 16:33:43 2025 
+Best design point: 1
+Design specs: 
+	DAMSIC25_TB_2_STAGE_MILLER_OTA_TB_1	corner	Nominal - 
+	PERCENT_SETTLING_ERROR		111m
+	PERCENT_OVERSHOOT		168.8m
+Design parameters: 
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Wed Feb 12 16:33:47 2025 

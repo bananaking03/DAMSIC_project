@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Mar 21 10:18:00 2025 
+Best design point: 1
+Design specs: 
+	DAMSIC_2023_IGS_Testbench_1	corner	Nominal - 
+	gm,p		4.203m	No
+	gm/ID,p		8.405
+	VGSp		-727.5m
+	VDSp		-500m	Error
+	UGFp		664M	No
+	Av0,p		22.68	Yes
+Design parameters: 
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Fri Mar 21 10:18:06 2025 

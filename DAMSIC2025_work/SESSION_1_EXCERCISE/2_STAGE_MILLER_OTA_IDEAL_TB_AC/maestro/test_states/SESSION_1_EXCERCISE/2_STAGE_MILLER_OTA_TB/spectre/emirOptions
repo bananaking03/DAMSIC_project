@@ -1,0 +1,66 @@
+(emirOpts advancedTable) nil
+(emirOpts advancedTableForNoSHE) nil
+(emirOpts advancedTableForSHE) nil
+(emirOpts advancedTableForSHEGF) nil
+(emirOpts anaType) "Dynamic"
+(emirOpts autoLoadVfiFile) nil
+(emirOpts customizedOptionsListBox) nil
+(emirOpts dfIILayermapGFShe) ""
+(emirOpts dfIILayermapNoShe) ""
+(emirOpts dfIILayermapTSMCNoShe) ""
+(emirOpts disableShapeServerSH) ""
+(emirOpts dspfLayermap) ""
+(emirOpts dspfListBox) nil
+(emirOpts dynamicAnaSummaryBox) nil
+(emirOpts editSummaryInfoTable) nil
+(emirOpts emDataFile) ""
+(emirOpts emIrcxFile) ""
+(emirOpts emOnlyIctFile) ""
+(emirOpts enableEMIRAna) nil
+(emirOpts enableRFReferenceFlow) nil
+(emirOpts foundry) ""
+(emirOpts hideAnalysesItems) ""
+(emirOpts ictFile) ""
+(emirOpts includeFile) ""
+(emirOpts irIrcxFile) ""
+(emirOpts layerName) ""
+(emirOpts layermapGFShe) "Use DFII Layermap"
+(emirOpts layermapNoShe) "Use DFII Layermap"
+(emirOpts layermapTSMCNoShe) "Use DFII Layermap"
+(emirOpts mode) "No SHE"
+(emirOpts netName) ""
+(emirOpts qrcTechFile) ""
+(emirOpts res_pdata_sw) ""
+(emirOpts runDirGFShe) ""
+(emirOpts runDirNoShe) ""
+(emirOpts runDirTSMCNoShe) ""
+(emirOpts runDirTSMCShe) ""
+(emirOpts runNameGFShe) ""
+(emirOpts runNameNoShe) ""
+(emirOpts runNameTSMCNoShe) ""
+(emirOpts runNameTSMCShe) ""
+(emirOpts shEMEffect) "beolT"
+(emirOpts shParamFile) ""
+(emirOpts sheCellName) ""
+(emirOpts sheEmReports) nil
+(emirOpts sheEmReportsAvg) nil
+(emirOpts sheEmReportsPeak) nil
+(emirOpts sheEmReportsRms) nil
+(emirOpts sheLibName) ""
+(emirOpts sheSelfHeatingReports) nil
+(emirOpts sheTileSizeL) ""
+(emirOpts sheTileSizeR) ""
+(emirOpts sheViewName) ""
+(emirOpts short) ""
+(emirOpts shortResLayer) "yes"
+(emirOpts solverMethod) "Direct"
+(emirOpts solverMethodTable) nil
+(emirOpts spgsAdvIRDrop) nil
+(emirOpts spgsFilterMoscap) "no"
+(emirOpts staticAnaSummaryBox) nil
+(emirOpts staticCurrentFile) ""
+(emirOpts summaryListBox) nil
+(emirOpts techFileMode) "qrcTechFile with external EM Only ICT File"
+(emirOpts timeWindowListBox) nil
+(emirOpts timeWindowMode) ""
+(emirOpts vfiProcess) ""

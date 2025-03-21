@@ -1,0 +1,13 @@
+; set library manager categories ON by default
+envSetVal("cdsLibManager.main" "showCategoriesOn" 'boolean t)
+
+; ADEXL/MEASTRO asks for history name
+envSetVal("adexl.historyNamePrefix" "showNameHistoryForm" 'boolean t )
+
+; thick simulation lines
+envSetVal("asimenv.plotting" "useDisplayDrf" 'boolean nil)
+envSetVal("viva.trace" "lineThickness" 'string "thick")
+envSetVal("viva.trace" "lineStyle" 'string "solid")
+
+; force ICRP setting for simulations
+envSetVal("maestro.distribute" "forceJobControlModeWhenViewOpen" 'cyclic "ICRP")

@@ -1,0 +1,91 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = DAMSIC
+	Cell         = demo_TH_PNOISE_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.3
+	Results DB   = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/demo_TH_PNOISE_TB/maestro/results/maestro/Interactive.3.rdb
+	Results Dir  = /users/students/r0884392/simulation/DAMSIC/demo_TH_PNOISE_TB/maestro/results/maestro/Interactive.3/1/PSS_PNOISE
+	Results Loc  = /users/students/r0884392/simulation/DAMSIC/demo_TH_PNOISE_TB/maestro/results/maestro
+	Project Dir  = /users/students/r0884392/simulation
+	Setup DB loc = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/demo_TH_PNOISE_TB/maestro
+	File Encoding = 0
+
+
+INFO (ASSEMBLER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (6 1) on testbench [ PSS_PNOISE ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var CSAMP = "1p"
+Setting var F_CLK = "10M"
+Setting var F_IN = "0"
+Setting var MULT_NMOS = "1"
+Setting temp(T) = 27
+Setting var vdd = "1.1"
+
+*Info*    Netlist Directory =
+          /users/students/r0884392/simulation/DAMSIC/demo_TH_PNOISE_TB/maestro/results/maestro/Interactive.3/1/PSS_PNOISE/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0884392/simulation/DAMSIC/demo_TH_PNOISE_TB/maestro/results/maestro/Interactive.3/1/PSS_PNOISE
+
+
+*Info*    Creating Netlist for Point ID (6 1)
+
+generate netlist...
+Begin Incremental Netlisting Feb 21 12:01:59 2025
+End netlisting Feb 21 12:01:59 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ PSS_PNOISE ] for Point ID
+          (6 1).
+
+Delete psf data in /users/students/r0884392/simulation/DAMSIC/demo_TH_PNOISE_TB/maestro/results/maestro/Interactive.3/1/PSS_PNOISE/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (6 1) on testbench [ PSS_PNOISE ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

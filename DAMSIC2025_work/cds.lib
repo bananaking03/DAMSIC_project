@@ -1,0 +1,9 @@
+-- Base gpdk045 library definition file	
+
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+
+DEFINE gpdk045 ./gpdk045
+DEFINE DAMSIC ./DAMSIC
+DEFINE SESSION_1_EXCERCISE ./SESSION_1_EXCERCISE

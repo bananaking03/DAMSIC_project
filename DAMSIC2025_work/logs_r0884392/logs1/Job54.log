@@ -1,0 +1,123 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = DAMSIC
+	Cell         = demo_SCAmplifier_PAC_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/demo_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0/1/PSS_PNOISE
+	Results Loc  = /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PAC_TB/maestro/results/maestro
+	Project Dir  = /users/students/r0884392/simulation
+	Setup DB loc = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/demo_SCAmplifier_PAC_TB/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (10 1) on testbench [ PSS_PNOISE ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var C_OTA = "0.5p"
+Setting var Cfb = "0.2p"
+Setting var Cin = "2p"
+Setting var Cl = "3p"
+Setting var INCM = "0.5"
+Setting var OUTCMRef = "0.5"
+Setting var R_ON = "100k"
+Setting var Vin = "0"
+Setting var alpha = "0.01"
+Setting var fin = "0"
+Setting var fsw = "100k"
+Setting var gm_OTA = "1"
+Setting var ro_OTA = "100M"
+Setting var ron = "5"
+Setting temp(T) = 27
+Setting var vdd = "1.1"
+
+*Info*    Netlist Directory =
+          /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0/1/PSS_PNOISE/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0/1/PSS_PNOISE
+
+
+*Info*    Creating Netlist for Point ID (10 1)
+
+generate netlist...
+Begin Incremental Netlisting Feb 21 12:37:44 2025
+WARNING (OSSHNL-325): Place master 'DAMSIC/idealOTA/symbol' for instance 'I0' has been modified since the last
+extraction of its parent cellview 'DAMSIC/demo_SCAmplifier_PAC_TB/schematic'.
+Connectivity changes in the place master can cause issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent cellview 'DAMSIC/demo_SCAmplifier_PAC_TB/schematic' and regenerate the netlist. To avoid
+multiple Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier SKILL function to do a hierarchical check and save on the top
+cell and then generate the netlist.
+-Ignore all connectivity checks for this place master by specifying it to the
+list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors by setting the environment variable
+simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+and non-connectivity changes, thereby generating an incorrect netlist.
+To avoid reporting of non-connectivity changes after performing a hierarchical
+check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error' to receive reports of only
+connectivity issues during netlisting.
+The variable simSymbolModifiedAction controls the severity of this message,
+which can be 'ignore', 'warning', or 'error'.
+
+End netlisting Feb 21 12:37:44 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ PSS_PNOISE ] for Point ID
+          (10 1).
+
+Delete psf data in /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0/1/PSS_PNOISE/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (10 1) on testbench [ PSS_PNOISE
+          ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

@@ -1,0 +1,107 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = SESSION_1_EXCERCISE
+	Cell         = 2_STAGE_MILLER_OTA_IDEAL_TB_AC
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/SESSION_1_EXCERCISE/2_STAGE_MILLER_OTA_IDEAL_TB_AC/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0884392/simulation/SESSION_1_EXCERCISE/2_STAGE_MILLER_OTA_IDEAL_TB_AC/maestro/results/maestro/Interactive.0/1/DAMSIC25_TB_2_STAGE_MILLER_OTA_TB_1
+	Results Loc  = /users/students/r0884392/simulation/SESSION_1_EXCERCISE/2_STAGE_MILLER_OTA_IDEAL_TB_AC/maestro/results/maestro
+	Project Dir  = /users/students/r0884392/simulation
+	Setup DB loc = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/SESSION_1_EXCERCISE/2_STAGE_MILLER_OTA_IDEAL_TB_AC/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [
+          DAMSIC25_TB_2_STAGE_MILLER_OTA_TB_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var C1 = "10f"
+Setting var CC = "3.33p"
+Setting var CL = "10p"
+Setting var FB = "1"
+Setting var IBIAS1 = "10u"
+Setting var IBIAS2 = "100u"
+Setting var R1 = "1M"
+Setting var R2 = "1M"
+Setting var VCM = "0.5"
+Setting var gm1 = "10u"
+Setting var gm2 = "30u"
+Setting var gm3 = "80u"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /users/students/r0884392/simulation/SESSION_1_EXCERCISE/2_STAGE_MILLER_OTA_IDEAL_TB_AC/maestro/results/maestro/Interactive.0/1/DAMSIC25_TB_2_STAGE_MILLER_OTA_TB_1/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0884392/simulation/SESSION_1_EXCERCISE/2_STAGE_MILLER_OTA_IDEAL_TB_AC/maestro/results/maestro/Interactive.0/1/DAMSIC25_TB_2_STAGE_MILLER_OTA_TB_1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Initializing the control file using cp:
+    cp /esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/etc/si/control.spectre /users/students/r0884392/simulation/SESSION_1_EXCERCISE/2_STAGE_MILLER_OTA_IDEAL_TB_AC/maestro/results/maestro/Interactive.0/1/DAMSIC25_TB_2_STAGE_MILLER_OTA_TB_1/netlist/control
+Copying Spectre source file 'spectre.inp'
+Copying Spectre command file 'spectre.sim'
+Begin Incremental Netlisting Feb 14 12:00:55 2025
+End netlisting Feb 14 12:00:55 2025
+
+Netlisting Statistics:
+	Number of components:   11
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          DAMSIC25_TB_2_STAGE_MILLER_OTA_TB_1 ] for Point ID (0 1).
+
+Delete psf data in /users/students/r0884392/simulation/SESSION_1_EXCERCISE/2_STAGE_MILLER_OTA_IDEAL_TB_AC/maestro/results/maestro/Interactive.0/1/DAMSIC25_TB_2_STAGE_MILLER_OTA_TB_1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (0 1) on testbench [
+          DAMSIC25_TB_2_STAGE_MILLER_OTA_TB_1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

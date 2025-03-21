@@ -1,0 +1,146 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = DAMSIC
+	Cell         = demo_SCAmplifier_PNOISE_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/demo_SCAmplifier_PNOISE_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PNOISE_TB/maestro/results/maestro/Interactive.0/1/PSS_PNOISE
+	Results Loc  = /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PNOISE_TB/maestro/results/maestro
+	Project Dir  = /users/students/r0884392/simulation
+	Setup DB loc = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/demo_SCAmplifier_PNOISE_TB/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [ PSS_PNOISE ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var C_OTA = "100f"
+Setting var Cfb = "0.23p"
+Setting var Cin = "2.3025p"
+Setting var Cl = "2p"
+Setting var INCM = "55"
+Setting var OUTCMRef = "55"
+Setting var Vin = "0"
+Setting var alpha = "0.01"
+Setting var fin = "500k"
+Setting var fsw = "60M"
+Setting var gm_OTA = "13m"
+Setting var ro_OTA = "1.5M"
+Setting var ron = "5"
+Setting temp(T) = 27
+Setting var vdd = "1.1"
+
+*Info*    Netlist Directory =
+          /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PNOISE_TB/maestro/results/maestro/Interactive.0/1/PSS_PNOISE/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PNOISE_TB/maestro/results/maestro/Interactive.0/1/PSS_PNOISE
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Begin Incremental Netlisting Mar  8 17:08:33 2025
+End netlisting Mar  8 17:08:33 2025
+
+Netlisting Statistics:
+	Number of components:   25
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ PSS_PNOISE ] for Point ID
+          (0 1).
+
+Delete psf data in /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PNOISE_TB/maestro/results/maestro/Interactive.0/1/PSS_PNOISE/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
+reading simulation data...
+      ...successful.
+
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
+
+          Error found by spectre during periodic steady state
+          analysis `pss'.
+Error found by spectre during periodic
+          steady state analysis `pss'.
+ERROR (CMI-2207): V2: The
+          fundamental frequency 'fund' 70 MHz does not divide evenly
+          into the stimulus frequency 'period' 60 MHz. To fix the
+          problem, 
+adjust the fundamental frequency so that an
+          integer multiple of 'fund' equals 'period'. 
+Error found by
+          spectre.
+Error found by spectre.
+ERROR (SPCRTRF-15024): The
+          pnoise analysis was skipped because a PSS analysis must be
+          run first.
+
+
+
+
+
+*Info*    Client has finished evaluating ... 
+
+WARNING (OCN-6038): Results pnoise_sample_pm0 are not available for /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PNOISE_TB/maestro/results/maestro/Interactive.0/1/PSS_PNOISE. Use results() for a list of available results.
+WARNING (OCN-6038): Results pnoise_sample_pm0 are not available for /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PNOISE_TB/maestro/results/maestro/Interactive.0/1/PSS_PNOISE. Use results() for a list of available results.
+ERROR (EXPLORER-2709): Evaluation of output 'Integrated Noise (V)' returned 'nil' for point:'1' test:'PSS_PNOISE'
+	Expression:'pow(integ(pow(clip(getData("out" ?result "pnoise_sample_pm0") 10 35000000) 2)) 0.5)'.
+Ensure that the definition of output is correct.
+
+WARNING (OCN-6038): Results pnoise_sample_pm0 are not available for /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PNOISE_TB/maestro/results/maestro/Interactive.0/1/PSS_PNOISE. Use results() for a list of available results.
+WARNING (OCN-6038): Results pnoise_sample_pm0 are not available for /users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PNOISE_TB/maestro/results/maestro/Interactive.0/1/PSS_PNOISE. Use results() for a list of available results.
+ERROR (EXPLORER-2709): Evaluation of output 'Output Noise (V/sqrt(Hz))' returned 'nil' for point:'1' test:'PSS_PNOISE'
+	Expression:'getData("out" ?result "pnoise_sample_pm0")'.
+Ensure that the definition of output is correct.
+
+ERROR (EXPLORER-2709): Evaluation of output 'v /phi<2>; pss (V)' returned 'nil' for point:'1' test:'PSS_PNOISE'
+	Expression:'vtime('pss "/phi<2>")'.
+Ensure that the definition of output is correct.
+
+
+*Info*    Run complete for Point ID (0 1) on testbench [ PSS_PNOISE ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

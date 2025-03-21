@@ -1,0 +1,4 @@
+TDMCHECKPOINT="1.0"
+DAMSIC/GMOVERID_BIAS.Cat type="category"
+DAMSIC/IDEAL_BLOCKS.Cat type="category"
+DAMSIC/TESTBENCHES.Cat type="category"
