@@ -1059,8 +1059,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 8 18:43:06 2025</timestamp>
-			<uuid>{835390f8-49e0-4a3e-9f8a-c502142eb50f}</uuid>
+			<timestamp>Mar 23 16:51:41 2025</timestamp>
+			<uuid>{ae19419d-6176-4ecb-88f4-7d3dd087c057}</uuid>
 			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/demo_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -1069,7 +1069,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vierre64.esat.kuleuven.be_r0884392_184306991</localpsfdir>
+			<localpsfdir>/tmp/vierre64.esat.kuleuven.be_r0884392_165141422</localpsfdir>
 			<psfdir>/users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/demo_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
