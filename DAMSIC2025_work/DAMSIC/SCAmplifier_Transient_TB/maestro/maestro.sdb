@@ -114,7 +114,7 @@
 				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
-				<value>Replace</value>
+				<value>Append</value>
 			</plottingoption>
 			<plottingoption>plottype
 				<value>None</value>
@@ -134,10 +134,16 @@
 			<plottingoption>distributedplot_enabled
 				<value>no</value>
 			</plottingoption>
+			<plottingoption>autoplotmode
+				<value>Append</value>
+			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
 			<exploreroption>waveformtemplate
 				<value>(None)</value>
+			</exploreroption>
+			<exploreroption>autoplotmode
+				<value>Append</value>
 			</exploreroption>
 		</exploreroptions>
 		<incrementalsimsetup>
@@ -268,7 +274,7 @@
 						<value>Auto</value>
 					</plottingoption>
 					<plottingoption>autoplotmode
-						<value>Replace</value>
+						<value>Append</value>
 					</plottingoption>
 					<plottingoption>useMaestroPlottingTemplate
 						<value>yes</value>
@@ -344,6 +350,9 @@
 					<exploreroption>waveformtemplate
 						<value>(None)</value>
 					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Append</value>
+					</exploreroption>
 				</exploreroptions>
 				<incrementalsimsetup>
 					<useincremental>0</useincremental>
@@ -364,8 +373,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 11 11:27:50 2025</timestamp>
-			<uuid>{cde92823-6ce0-4a74-82b1-21cfeaf013aa}</uuid>
+			<timestamp>Mar 25 13:13:18 2025</timestamp>
+			<uuid>{c8adc6de-5341-4152-a135-75b4d202d253}</uuid>
 			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -374,7 +383,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas1-11.esat.kuleuven.be_r0884392_112750971</localpsfdir>
+			<localpsfdir>/tmp/pc-klas2-5.esat.kuleuven.be_r0884392_131318203</localpsfdir>
 			<psfdir>/users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

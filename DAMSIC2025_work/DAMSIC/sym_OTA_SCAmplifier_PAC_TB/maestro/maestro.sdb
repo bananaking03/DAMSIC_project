@@ -46,19 +46,19 @@
 						<value>0.23p</value>
 					</var>
 					<var>Cin
-						<value>0.23025p</value>
+						<value>2.3025p</value>
 					</var>
 					<var>Cl
 						<value>2p</value>
 					</var>
 					<var>fin
-						<value>0</value>
+						<value>100k</value>
 					</var>
 					<var>fsw
 						<value>60M</value>
 					</var>
 					<var>INCM
-						<value>0.5</value>
+						<value>0.55</value>
 					</var>
 					<var>length
 						<value>90n</value>
@@ -88,13 +88,13 @@
 						<value>100</value>
 					</var>
 					<var>OUTCMRef
-						<value>0.5</value>
+						<value>0.55</value>
 					</var>
 					<var>vdd
 						<value>1.1</value>
 					</var>
 					<var>Vin
-						<value>0</value>
+						<value>10m</value>
 					</var>
 					<var>b7
 						<value>0.477</value>
@@ -143,7 +143,7 @@
 				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
-				<value>Replace</value>
+				<value>Append</value>
 			</plottingoption>
 			<plottingoption>plottype
 				<value>None</value>
@@ -163,10 +163,16 @@
 			<plottingoption>distributedplot_enabled
 				<value>no</value>
 			</plottingoption>
+			<plottingoption>autoplotmode
+				<value>Replace</value>
+			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
 			<exploreroption>waveformtemplate
 				<value>(None)</value>
+			</exploreroption>
+			<exploreroption>autoplotmode
+				<value>Replace</value>
 			</exploreroption>
 		</exploreroptions>
 		<incrementalsimsetup>
@@ -225,19 +231,19 @@
 								<value>0.23p</value>
 							</var>
 							<var>Cin
-								<value>0.23025p</value>
+								<value>2.3025p</value>
 							</var>
 							<var>Cl
 								<value>2p</value>
 							</var>
 							<var>fin
-								<value>0</value>
+								<value>100k</value>
 							</var>
 							<var>fsw
 								<value>60M</value>
 							</var>
 							<var>INCM
-								<value>0.5</value>
+								<value>0.55</value>
 							</var>
 							<var>length
 								<value>90n</value>
@@ -267,13 +273,13 @@
 								<value>100</value>
 							</var>
 							<var>OUTCMRef
-								<value>0.5</value>
+								<value>0.55</value>
 							</var>
 							<var>vdd
 								<value>1.1</value>
 							</var>
 							<var>Vin
-								<value>0</value>
+								<value>10m</value>
 							</var>
 							<var>b7
 								<value>0.477</value>
@@ -398,6 +404,9 @@
 					<exploreroption>waveformtemplate
 						<value>(None)</value>
 					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
 				</exploreroptions>
 				<incrementalsimsetup>
 					<useincremental>0</useincremental>
@@ -414,8 +423,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 23 17:31:55 2025</timestamp>
-			<uuid>{8189a46b-535c-4614-b994-2ce06bcf6617}</uuid>
+			<timestamp>Mar 25 13:49:06 2025</timestamp>
+			<uuid>{0a51e696-5b33-4bc0-9688-c44e38d197eb}</uuid>
 			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -424,7 +433,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vierre64.esat.kuleuven.be_r0884392_173155263</localpsfdir>
+			<localpsfdir>/tmp/pc-klas2-5.esat.kuleuven.be_r0884392_134906113</localpsfdir>
 			<psfdir>/users/students/r0884392/simulation/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

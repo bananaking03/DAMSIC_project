@@ -1,13 +1,15 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Tue Mar 11 11:27:51 2025 
+Current time: Tue Mar 25 13:13:19 2025 
 Best design point: 1
 Design specs: 
 	DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1	corner	Nominal - 
+	Loop Gain Phase		Error	No
+	Loop Gain dB20		Error	No
 Design parameters: 
 
 Interactive.0
 Number of points completed: 1
-Number of simulation errors: 0
+Number of simulation errors: 2
 Interactive.0 completed. 
-Current time: Tue Mar 11 11:27:54 2025 
+Current time: Tue Mar 25 13:13:33 2025 

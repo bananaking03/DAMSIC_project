@@ -29,7 +29,7 @@ INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC ver
 
 
 
-*Info*    Run start for Point ID (16 1) on testbench [
+*Info*    Run start for Point ID (0 1) on testbench [
           DAMSIC_symmetric_OTA_SpecTb_1 ].
 
 Resetting statistical vars
@@ -37,18 +37,19 @@ Resetting statistical vars
 *Info*    Setting parameter values ...
 
 Setting var INCM = "0.55"
-Setting var b4 = "0.4"
-Setting var b5 = "0.107"
-Setting var b6 = "0.387"
-Setting var diffBias = "0.566"
+Setting var VOCMRef = "550m"
+Setting var b4 = "1"
+Setting var b5 = "0.2"
+Setting var diffBias = "0.7"
 Setting var length = "90n"
-Setting var nf_Bias = "10000"
-Setting var nf_Inp = "200"
-Setting var nf_M2 = "100"
-Setting var nf_M3 = "500"
-Setting var nf_M4 = "1000"
-Setting var nf_M5 = "1000"
-Setting var nf_M6 = "1000"
+Setting var mult = "1"
+Setting var nf_Bias = "4000"
+Setting var nf_Inp = "600"
+Setting var nf_M2 = "300"
+Setting var nf_M3 = "900"
+Setting var nf_M4 = "100"
+Setting var nf_M5 = "500"
+Setting var nf_M6 = "100"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
@@ -59,20 +60,23 @@ Setting temp(T) = 27
           /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1
 
 
-*Info*    Creating Netlist for Point ID (16 1)
+*Info*    Creating Netlist for Point ID (0 1)
 
 generate netlist...
-Begin Incremental Netlisting Mar 21 13:24:24 2025
-End netlisting Mar 21 13:24:24 2025
+Begin Incremental Netlisting Mar 25 12:50:34 2025
+End netlisting Mar 25 12:50:35 2025
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+Netlisting Statistics:
+	Number of components:   28
+
+	Elapsed time:          2.0s (14.00/s)
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          DAMSIC_symmetric_OTA_SpecTb_1 ] for Point ID (16 1).
+          DAMSIC_symmetric_OTA_SpecTb_1 ] for Point ID (0 1).
 
 Delete psf data in /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1/psf.
 compose simulator input file...
@@ -88,8 +92,20 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
+WARNING (OCN-6038): Results ac are not available for /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results ac are not available for /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1/psf. Use results() for a list of available results.
+ERROR (EXPLORER-2709): Evaluation of output 'phaseDeg(VF("/OUTDM"))' returned 'nil' for point:'1' test:'DAMSIC_symmetric_OTA_SpecTb_1'
+	Expression:'phaseDeg(VF("/OUTDM"))'.
+Ensure that the definition of output is correct.
 
-*Info*    Run complete for Point ID (16 1) on testbench [
+WARNING (OCN-6038): Results ac are not available for /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results ac are not available for /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1/psf. Use results() for a list of available results.
+ERROR (EXPLORER-2709): Evaluation of output 'db20(VF("/OUTDM"))' returned 'nil' for point:'1' test:'DAMSIC_symmetric_OTA_SpecTb_1'
+	Expression:'db20(VF("/OUTDM"))'.
+Ensure that the definition of output is correct.
+
+
+*Info*    Run complete for Point ID (0 1) on testbench [
           DAMSIC_symmetric_OTA_SpecTb_1 ].
 
 

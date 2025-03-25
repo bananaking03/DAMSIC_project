@@ -254,7 +254,7 @@
 								<value>0.20</value>
 							</var>
 							<var>INCM
-								<value>0.575</value>
+								<value>0.55</value>
 							</var>
 							<var>mult
 								<value>1</value>
@@ -399,8 +399,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 23 15:07:36 2025</timestamp>
-			<uuid>{3af72b64-92f5-4ca4-9eeb-9f47daaa3fd1}</uuid>
+			<timestamp>Mar 25 12:50:27 2025</timestamp>
+			<uuid>{0a394cf2-a31c-4008-9c95-3a28943c20be}</uuid>
 			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -409,7 +409,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vierre64.esat.kuleuven.be_r0884392_150736867</localpsfdir>
+			<localpsfdir>/tmp/pc-klas2-5.esat.kuleuven.be_r0884392_125027812</localpsfdir>
 			<psfdir>/users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

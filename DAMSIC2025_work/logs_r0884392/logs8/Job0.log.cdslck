@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      r0884392
 HostName                       vierre64.esat.kuleuven.be
-ProcessIdentifier              694197
-ProcessCreationTime_UTC        1742738053
-ProcessCreationTime_Readable   Sun Mar 23 14:54:13 2025 CET
+ProcessIdentifier              1125300
+ProcessCreationTime_UTC        1742763578
+ProcessCreationTime_Readable   Sun Mar 23 21:59:38 2025 CET
 AppIdentifier                  /esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/bin/64bit/virtuoso
 OSType                         lnx86
 ReasonForPlacingEditLock       Set lock by hiiLockFile
 FilePathUsedToEditLock         /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/logs_r0884392/logs8/Job0.log
-TimeEditLocked                 Sun Mar 23 14:54:14 2025 CET
+TimeEditLocked                 Sun Mar 23 21:59:39 2025 CET

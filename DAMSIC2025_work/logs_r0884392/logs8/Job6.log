@@ -1,0 +1,183 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = DAMSIC
+	Cell         = symmetric_OTA_SpecTb
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1
+	Results Loc  = /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro
+	Project Dir  = /users/students/r0884392/simulation
+	Setup DB loc = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_SpecTb/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [
+          DAMSIC_symmetric_OTA_SpecTb_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var INCM = "0.55"
+Setting var VOCMRef = "550m"
+Setting var b4 = "1"
+Setting var b5 = "0.2"
+Setting var diffBias = "0.7"
+Setting var length = "90n"
+Setting var mult = "1"
+Setting var nf_Bias = "4000"
+Setting var nf_Inp = "600"
+Setting var nf_M2 = "300"
+Setting var nf_M3 = "900"
+Setting var nf_M4 = "100"
+Setting var nf_M5 = "500"
+Setting var nf_M6 = "100"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Begin Incremental Netlisting Mar 23 22:19:44 2025
+WARNING (OSSHNL-325): Place master 'DAMSIC/symmetric_OTA/symbol' for instance 'I0' has been modified since the last
+extraction of its parent cellview 'DAMSIC/symmetric_OTA_SpecTb/schematic'.
+Connectivity changes in the place master can cause issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent cellview 'DAMSIC/symmetric_OTA_SpecTb/schematic' and regenerate the netlist. To avoid
+multiple Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier SKILL function to do a hierarchical check and save on the top
+cell and then generate the netlist.
+-Ignore all connectivity checks for this place master by specifying it to the
+list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors by setting the environment variable
+simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+and non-connectivity changes, thereby generating an incorrect netlist.
+To avoid reporting of non-connectivity changes after performing a hierarchical
+check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error' to receive reports of only
+connectivity issues during netlisting.
+The variable simSymbolModifiedAction controls the severity of this message,
+which can be 'ignore', 'warning', or 'error'.
+
+ERROR (OSSHNL-254): Terminal 'b7' of place master 'DAMSIC/symmetric_OTA/symbol' has no corresponding terminal in
+instance 'I0' of cellview 'DAMSIC/symmetric_OTA_SpecTb/schematic'. Either Run hierarchical extraction on the
+cellview or set the simSymbolModifiedAction variable to "ignore" and netlist
+again.
+
+Netlist Error: Conflict between symbol view and schematic view of instance "I0" in cell-view "DAMSIC" "symmetric_OTA_SpecTb" "schematic"
+End netlisting Mar 23 22:19:44 2025
+ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+      ...unsuccessful.
+
+*Error*   Error ID  = 5012
+*Error*   Error Msg = Failed to create netlist.
+
+
+
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [
+          DAMSIC_symmetric_OTA_SpecTb_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var INCM = "0.55"
+Setting var VOCMRef = "550m"
+Setting var b4 = "1"
+Setting var b5 = "0.2"
+Setting var diffBias = "0.7"
+Setting var length = "90n"
+Setting var mult = "1"
+Setting var nf_Bias = "4000"
+Setting var nf_Inp = "600"
+Setting var nf_M2 = "300"
+Setting var nf_M3 = "900"
+Setting var nf_M4 = "100"
+Setting var nf_M5 = "500"
+Setting var nf_M6 = "100"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Begin Incremental Netlisting Mar 23 22:19:45 2025
+WARNING (OSSHNL-325): Place master 'DAMSIC/symmetric_OTA/symbol' for instance 'I0' has been modified since the last
+extraction of its parent cellview 'DAMSIC/symmetric_OTA_SpecTb/schematic'.
+Connectivity changes in the place master can cause issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent cellview 'DAMSIC/symmetric_OTA_SpecTb/schematic' and regenerate the netlist. To avoid
+multiple Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier SKILL function to do a hierarchical check and save on the top
+cell and then generate the netlist.
+-Ignore all connectivity checks for this place master by specifying it to the
+list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors by setting the environment variable
+simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+and non-connectivity changes, thereby generating an incorrect netlist.
+To avoid reporting of non-connectivity changes after performing a hierarchical
+check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error' to receive reports of only
+connectivity issues during netlisting.
+The variable simSymbolModifiedAction controls the severity of this message,
+which can be 'ignore', 'warning', or 'error'.
+
+ERROR (OSSHNL-254): Terminal 'b7' of place master 'DAMSIC/symmetric_OTA/symbol' has no corresponding terminal in
+instance 'I0' of cellview 'DAMSIC/symmetric_OTA_SpecTb/schematic'. Either Run hierarchical extraction on the
+cellview or set the simSymbolModifiedAction variable to "ignore" and netlist
+again.
+
+Netlist Error: Conflict between symbol view and schematic view of instance "I0" in cell-view "DAMSIC" "symmetric_OTA_SpecTb" "schematic"
+End netlisting Mar 23 22:19:45 2025
+ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+      ...unsuccessful.
+
+*Error*   Error ID  = 5012
+*Error*   Error Msg = Failed to create netlist.
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables10".
+To save future changes, copy variables to cellView before exiting.
