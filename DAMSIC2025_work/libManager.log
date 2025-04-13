@@ -1,7 +1,7 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 02/10/2023 14:05 (cpgsrv13) $
 \o Sub version:		sub-version  s312 
-\o Arguments:		-unmapped -mpssession virtuoso147292 -mpshost pc-klas2-5.esat.kuleuven.be 
-\o Working Directory:	pc-klas2-5.esat.kuleuven.be:/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work
+\o Arguments:		-unmapped -mpssession virtuoso24197 -mpshost pc-klas2-9.esat.kuleuven.be 
+\o Working Directory:	pc-klas2-9.esat.kuleuven.be:/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work
 \o 64-bit offsets
 \o Qt version: 		5.9.1
 \o changeWorkingDir("/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work") unnecessary.
@@ -15,6 +15,19 @@
 \a nrResizeWindow(cdsLibManager list(299 129 821 491))
 \a cdsLibManager->libListBox->value = "DAMSIC"
 \a cdsLibManager->libLineEdit->value = "DAMSIC"
+\a nrListItemAction(cdsLibManager->libListBox "DAMSIC" 0)
+\a cdsLibManager->cellListBox->value = "symmetric_OTA_gain_boosted"
+\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_gain_boosted"
+\a cdsLibManager->cellListBox->value = "symmetric_OTA_SpecTb"
+\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_SpecTb"
+\a cdsLibManager->cellListBox->value = "symmetric_OTA"
+\a cdsLibManager->cellLineEdit->value = "symmetric_OTA"
+\a cdsLibManager->cellListBox->value = "symmetric_OTA_gain_boosted"
+\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_gain_boosted"
+\a cdsLibManager->cellListBox->value = "symmetric_OTA_SpecTb"
+\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_SpecTb"
+\a cdsLibManager->cellListBox->value = "symmetric_OTA_gain_boosted"
+\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_gain_boosted"
 \a cdsLibManager->cellListBox->value = "symmetric_OTA_SpecTb"
 \a cdsLibManager->cellLineEdit->value = "symmetric_OTA_SpecTb"
 \a cdsLibManager->cellListBox->value = "sym_OTA_SCAmplifier_PAC_TB"
@@ -41,25 +54,147 @@
 \a cdsLibManager->viewListBox->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = "maestro"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "idealOTA_2POLE"
-\a cdsLibManager->cellLineEdit->value = "idealOTA_2POLE"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "sym_OTA_SCAmplifier_PAC_TB"
-\a cdsLibManager->cellLineEdit->value = "sym_OTA_SCAmplifier_PAC_TB"
+\a lmgrLogShowPopup("mainListPopup1" 86 187 2 "")
+\a lmgrLogShowPopup("mainListPopup1" 74 188 2 "")
+\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "DAMSIC"
+\a cdsLibManager->libLineEdit->value = "DAMSIC"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(160 271 821 491))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "SCAmplifier_trans_twopole"
+\a cdsLibManager->cellLineEdit->value = "SCAmplifier_trans_twopole"
 \a cdsLibManager->viewListBox->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = "maestro"
-\a cdsLibManager->cellListBox->value = "SCAmplifier_Transient_TB"
-\a cdsLibManager->cellLineEdit->value = "SCAmplifier_Transient_TB"
+\a cdsLibManager->cellListBox->value = "demo_SCAmplifier_PAC_TB"
+\a cdsLibManager->cellLineEdit->value = "demo_SCAmplifier_PAC_TB"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->cellListBox->value = "demo_SCAmplifier_STB_TB"
+\a cdsLibManager->cellLineEdit->value = "demo_SCAmplifier_STB_TB"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->cellListBox->value = "demo_SCAmplifier_PAC_TB"
+\a cdsLibManager->cellLineEdit->value = "demo_SCAmplifier_PAC_TB"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = "maestro"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 1 0)
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "demo_SCAmplifier_STB_TB"
+\a cdsLibManager->cellLineEdit->value = "demo_SCAmplifier_STB_TB"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 101 142 2 "demo_SCAmplifier_STB_TB")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->CopyFromLibrary->value = "DAMSIC"
+\a copyCellForm->CopyToLibrary->value = "DAMSIC"
+\a copyCellForm->CopyFromCell->value = "demo_SCAmplifier_STB_TB"
+\a copyCellForm->CopyToCell->value = "demo_SCAmplifier_STB_TB"
+\a copyCellForm->ViewsToCopy->value = "maestro schematic"
+\a copyCellForm->SkipLibrariesEdit->value = ""
+\a copyCellForm->SkipLibrariesEdit->value = "SESSION_1_EXCERCISE US_8ths analogLib basic cdsDefTechLib gpdk045"
+\a nrSetWindowVisibility(copyCellForm "show")
+\a nrSetCurrentWindow(copyCellForm)
+\a nrResizeWindow(copyCellForm list(326 168 468 659))
+\a copyCellForm->CopyToCell->value = "sym_OTA_SCAmplifier_STB_TB"
+\a copyCellForm->OK->value = t
+\o Beginning simple copy to library "DAMSIC".
+\o Processing files to be copied...
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(copyCellForm list(326 126 468 659))
+\a nrResizeWindow(workingDialogForm list(424 431 273 133))
+\o Copy succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "DAMSIC"
+\a cdsLibManager->libLineEdit->value = "DAMSIC"
+\a cdsLibManager->cellListBox->value = "demo_SCAmplifier_STB_TB"
+\a cdsLibManager->cellLineEdit->value = "demo_SCAmplifier_STB_TB"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(424 410 273 133))
+\a cdsLibManager->cellListBox->value = "sym_OTA_SCAmplifier_STB_TB"
+\a cdsLibManager->cellLineEdit->value = "sym_OTA_SCAmplifier_STB_TB"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "sym_OTA_SCAmplifier_PAC_TB"
+\a cdsLibManager->cellLineEdit->value = "sym_OTA_SCAmplifier_PAC_TB"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->cellListBox->value = "sym_OTA_SCAmplifier_STB_TB"
+\a cdsLibManager->cellLineEdit->value = "sym_OTA_SCAmplifier_STB_TB"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->cellListBox->value = "sym_OTA_SCAmplifier_PAC_TB"
+\a cdsLibManager->cellLineEdit->value = "sym_OTA_SCAmplifier_PAC_TB"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetWindowVisibility(cdsLibManager "hide")

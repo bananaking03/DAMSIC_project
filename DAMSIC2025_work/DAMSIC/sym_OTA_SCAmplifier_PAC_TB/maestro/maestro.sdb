@@ -34,13 +34,13 @@
 						<value>0.01</value>
 					</var>
 					<var>b1
-						<value>700m</value>
+						<value>0.7</value>
 					</var>
 					<var>b5
 						<value>1</value>
 					</var>
 					<var>b6
-						<value>200m</value>
+						<value>0.2</value>
 					</var>
 					<var>Cfb
 						<value>0.23p</value>
@@ -52,7 +52,7 @@
 						<value>2p</value>
 					</var>
 					<var>fin
-						<value>100k</value>
+						<value>0</value>
 					</var>
 					<var>fsw
 						<value>60M</value>
@@ -94,7 +94,7 @@
 						<value>1.1</value>
 					</var>
 					<var>Vin
-						<value>10m</value>
+						<value>0</value>
 					</var>
 					<var>b7
 						<value>0.477</value>
@@ -219,13 +219,13 @@
 								<value>0.01</value>
 							</var>
 							<var>b1
-								<value>700m</value>
+								<value>0.7</value>
 							</var>
 							<var>b5
 								<value>1</value>
 							</var>
 							<var>b6
-								<value>200m</value>
+								<value>0.2</value>
 							</var>
 							<var>Cfb
 								<value>0.23p</value>
@@ -237,7 +237,7 @@
 								<value>2p</value>
 							</var>
 							<var>fin
-								<value>100k</value>
+								<value>0</value>
 							</var>
 							<var>fsw
 								<value>60M</value>
@@ -279,7 +279,7 @@
 								<value>1.1</value>
 							</var>
 							<var>Vin
-								<value>10m</value>
+								<value>0</value>
 							</var>
 							<var>b7
 								<value>0.477</value>
@@ -423,8 +423,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 25 13:49:06 2025</timestamp>
-			<uuid>{0a51e696-5b33-4bc0-9688-c44e38d197eb}</uuid>
+			<timestamp>Mar 28 13:09:23 2025</timestamp>
+			<uuid>{745a636e-67d3-432c-a4a9-f57a16e349a3}</uuid>
 			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -433,7 +433,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas2-5.esat.kuleuven.be_r0884392_134906113</localpsfdir>
+			<localpsfdir>/tmp/pc-klas2-9.esat.kuleuven.be_r0884392_130923019</localpsfdir>
 			<psfdir>/users/students/r0884392/simulation/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

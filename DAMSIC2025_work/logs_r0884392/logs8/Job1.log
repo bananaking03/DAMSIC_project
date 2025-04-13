@@ -38,17 +38,17 @@ Resetting statistical vars
 *Info*    Setting parameter values ...
 
 Setting var Cfb = "0.23p"
-Setting var Cin = "0.23025p"
+Setting var Cin = "2.3025p"
 Setting var Cl = "2p"
-Setting var INCM = "0.5"
-Setting var OUTCMRef = "0.5"
-Setting var Vin = "0"
+Setting var INCM = "0.55"
+Setting var OUTCMRef = "0.55"
+Setting var Vin = "10m"
 Setting var alpha = "0.01"
 Setting var b1 = "700m"
 Setting var b5 = "1"
 Setting var b6 = "200m"
 Setting var b7 = "0.477"
-Setting var fin = "0"
+Setting var fin = "100k"
 Setting var fsw = "60M"
 Setting var length = "90n"
 Setting var mult = "1"
@@ -75,11 +75,25 @@ Setting var vdd = "1.1"
 generate netlist...
 Loading hnlInit.cxt 
 Loading seCore.cxt 
-Begin Incremental Netlisting Mar 23 22:00:19 2025
-End netlisting Mar 23 22:00:20 2025
+Begin Incremental Netlisting Mar 28 10:38:46 2025
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'out+' in the placed master
+'DAMSIC/symmetric_OTA/symbol' and its corresponding terminal in the switch master 'DAMSIC/symmetric_OTA/schematic',
+however, this terminal is printed in the netlist because the variable
+simCheckTermDirectionMismatch is either set to 'ignore' or is not set.
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   1.0s
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'out-' in the placed master
+'DAMSIC/symmetric_OTA/symbol' and its corresponding terminal in the switch master 'DAMSIC/symmetric_OTA/schematic',
+however, this terminal is printed in the netlist because the variable
+simCheckTermDirectionMismatch is either set to 'ignore' or is not set.
+
+Loading json.cxt 
+End netlisting Mar 28 10:38:46 2025
+
+Netlisting Statistics:
+	Number of components:   46
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
@@ -106,19 +120,14 @@ reading simulation data...
 *Error*   Error ID  = 5011
 *Error*   Error Msg = Simulator failed to complete the simulation.
 
-          Error found by spectre at time = 759.429 ns during periodic
-          steady state analysis `pss'.
-Error found by spectre at time
-          = 759.429 ns during periodic steady state analysis
-          `pss'.
-ERROR (SPECTRE-16192): No convergence achieved with
-          the minimum time step specified.  Last acceptable solution
-          computed at 758.367 ns.
-Error found by spectre.
-Error found
-          by spectre.
-ERROR (SPCRTRF-15024): The pac analysis was
-          skipped because a PSS analysis must be run first.
+          Error found by spectre at time = 1.30727 us during
+          transient analysis `tran'.
+Error found by spectre at time =
+          1.30727 us during transient analysis `tran'.
+ERROR
+          (SPECTRE-16192): No convergence achieved with the minimum
+          time step specified.  Last acceptable solution computed at
+          1.15002 us.
 
 
 
@@ -145,5 +154,5 @@ Ensure that the definition of output is correct.
 
 
 Simulation design variables differ from those on the cellView,
-they have been saved in the file "/tmp/saved-design-variables10".
+they have been saved in the file "/tmp/saved-design-variables".
 To save future changes, copy variables to cellView before exiting.

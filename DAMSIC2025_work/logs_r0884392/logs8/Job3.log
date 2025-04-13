@@ -37,17 +37,17 @@ Resetting statistical vars
 *Info*    Setting parameter values ...
 
 Setting var Cfb = "0.23p"
-Setting var Cin = "0.23025p"
+Setting var Cin = "2.3025p"
 Setting var Cl = "2p"
-Setting var INCM = "0.5"
-Setting var OUTCMRef = "0.5"
-Setting var Vin = "0"
+Setting var INCM = "0.55"
+Setting var OUTCMRef = "0.55"
+Setting var Vin = "10m"
 Setting var alpha = "0.01"
 Setting var b1 = "700m"
 Setting var b5 = "1"
 Setting var b6 = "200m"
 Setting var b7 = "0.477"
-Setting var fin = "0"
+Setting var fin = "100k"
 Setting var fsw = "60M"
 Setting var length = "90n"
 Setting var mult = "1"
@@ -72,18 +72,34 @@ Setting var vdd = "1.1"
 *Info*    Creating Netlist for Point ID (1 1)
 
 generate netlist...
-Begin Incremental Netlisting Mar 23 22:11:15 2025
-WARNING (OSSHNL-195): The value of the property "nlAction" on instance 'I1' in cell 'symmetric_OTA', view
-'schematic', has changed since the last netlisting session in the current run
-directory. Some cell views will be re-netlisted.
+Begin Incremental Netlisting Mar 28 10:41:52 2025
+WARNING (OSSHNL-325): Place master 'DAMSIC/symmetric_OTA/symbol' for instance 'I24' has been modified since the last
+extraction of its parent cellview 'DAMSIC/sym_OTA_SCAmplifier_PAC_TB/schematic'.
+Connectivity changes in the place master can cause issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent cellview 'DAMSIC/sym_OTA_SCAmplifier_PAC_TB/schematic' and regenerate the netlist. To avoid
+multiple Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier SKILL function to do a hierarchical check and save on the top
+cell and then generate the netlist.
+-Ignore all connectivity checks for this place master by specifying it to the
+list of cellviews to be ignored using the hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors by setting the environment variable
+simSymbolModifiedAction to 'ignore'. However, this may ignore both connectivity
+and non-connectivity changes, thereby generating an incorrect netlist.
+To avoid reporting of non-connectivity changes after performing a hierarchical
+check and save operation, set 'schematic' 'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error' to receive reports of only
+connectivity issues during netlisting.
+The variable simSymbolModifiedAction controls the severity of this message,
+which can be 'ignore', 'warning', or 'error'.
 
-Loading json.cxt 
-End netlisting Mar 23 22:11:19 2025
+End netlisting Mar 28 10:41:52 2025
 
 Netlisting Statistics:
-	Number of components:   13
+	Number of components:   46
 
-	Elapsed time:          4.0s (3.25/s)
+	Elapsed time:          1.0s (46.00/s)
 Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
@@ -110,19 +126,14 @@ reading simulation data...
 *Error*   Error ID  = 5011
 *Error*   Error Msg = Simulator failed to complete the simulation.
 
-          Error found by spectre at time = 759.429 ns during periodic
-          steady state analysis `pss'.
-Error found by spectre at time
-          = 759.429 ns during periodic steady state analysis
-          `pss'.
-ERROR (SPECTRE-16192): No convergence achieved with
-          the minimum time step specified.  Last acceptable solution
-          computed at 758.367 ns.
-Error found by spectre.
-Error found
-          by spectre.
-ERROR (SPCRTRF-15024): The pac analysis was
-          skipped because a PSS analysis must be run first.
+          Error found by spectre at time = 1.30727 us during
+          transient analysis `tran'.
+Error found by spectre at time =
+          1.30727 us during transient analysis `tran'.
+ERROR
+          (SPECTRE-16192): No convergence achieved with the minimum
+          time step specified.  Last acceptable solution computed at
+          1.15002 us.
 
 
 
@@ -149,5 +160,5 @@ Ensure that the definition of output is correct.
 
 
 Simulation design variables differ from those on the cellView,
-they have been saved in the file "/tmp/saved-design-variables10".
+they have been saved in the file "/tmp/saved-design-variables".
 To save future changes, copy variables to cellView before exiting.
