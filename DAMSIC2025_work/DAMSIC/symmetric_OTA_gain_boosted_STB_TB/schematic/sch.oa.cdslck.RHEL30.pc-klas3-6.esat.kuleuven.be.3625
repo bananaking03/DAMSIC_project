@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      r1017765
+HostName                       pc-klas3-6.esat.kuleuven.be
+ProcessIdentifier              3625
+ProcessCreationTime_UTC        1744558294
+ProcessCreationTime_Readable   Sun Apr 13 17:31:34 2025 CEST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/schematic/sch.oa.cdslck
+TimeEditLocked                 Sun Apr 13 20:01:38 2025 CEST

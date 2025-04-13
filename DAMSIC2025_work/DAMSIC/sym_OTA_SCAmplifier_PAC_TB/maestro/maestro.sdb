@@ -423,9 +423,9 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 28 13:09:23 2025</timestamp>
-			<uuid>{745a636e-67d3-432c-a4a9-f57a16e349a3}</uuid>
-			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
+			<timestamp>Apr 13 20:16:05 2025</timestamp>
+			<uuid>{16674f52-b9d3-442e-8ce3-481d2c96e3e2}</uuid>
+			<resultsname>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
@@ -433,11 +433,11 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas2-9.esat.kuleuven.be_r0884392_130923019</localpsfdir>
-			<psfdir>/users/students/r0884392/simulation/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0</psfdir>
+			<localpsfdir>/tmp/pc-klas3-6.esat.kuleuven.be_r1017765_201605977</localpsfdir>
+			<psfdir>/users/students/r1017765/simulation/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0.log</runlog>
+			<runlog>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<note>

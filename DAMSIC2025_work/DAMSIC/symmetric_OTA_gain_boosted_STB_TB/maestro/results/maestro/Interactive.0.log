@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Apr 13 19:54:59 2025 
+Best design point: 1
+Design specs: 
+	DAMSIC_symmetric_OTA_gain_boosted_STB_TB_1	corner	Nominal - 
+	Loop Phase		Error	No
+	Loop Gain db20		Error	No
+Design parameters: 
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 2
+Interactive.0 completed. 
+Current time: Sun Apr 13 19:55:08 2025 

@@ -1,0 +1,5 @@
+#!/bin/sh
+cd /users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work
+virtuoso -noautostart -mpssession "virtuoso3625" -mpshost "pc-klas3-6.esat.kuleuven.be" -davinciService "DaVinciService_3625_1744558351" -log '/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/logs_r1017765/logs1/Job112.log'  -licenseLockFileName '/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/.tmp_r1017765/.pc-klas3-6.esat.kuleuven.be_3625'  -interactiveA -interactiveE -interactiveRTT -axlChildIdFlag 112 1>/dev/null  2>/dev/null 
+exit $?
+
