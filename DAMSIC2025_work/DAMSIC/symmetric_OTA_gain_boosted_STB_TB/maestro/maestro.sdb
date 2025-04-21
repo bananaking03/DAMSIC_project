@@ -114,6 +114,12 @@
 					<var>Vin
 						<value>10m</value>
 					</var>
+					<var>Vmax
+						<value>100m</value>
+					</var>
+					<var>Vmin
+						<value>50m</value>
+					</var>
 				</vars>
 				<origoptions>
 					<option>cell
@@ -137,6 +143,12 @@
 						<evalType>point</evalType>
 					</output>
 					<output>Loop Gain db20
+						<evalType>point</evalType>
+					</output>
+					<output>((VT("/OUTDM") + (VT("/INDM") * 10)) / (VT("/INDM") * 10))
+						<evalType>point</evalType>
+					</output>
+					<output>ymin(((VT("/OUTDM") + (VT("/INDM") * 10)) / (VT("/INDM") * 10)))
 						<evalType>point</evalType>
 					</output>
 				</outputs>
@@ -308,6 +320,12 @@
 							<var>Vin
 								<value>10m</value>
 							</var>
+							<var>Vmax
+								<value>100m</value>
+							</var>
+							<var>Vmin
+								<value>50m</value>
+							</var>
 						</vars>
 						<origoptions>
 							<option>cell
@@ -331,6 +349,12 @@
 								<evalType>point</evalType>
 							</output>
 							<output>Loop Gain db20
+								<evalType>point</evalType>
+							</output>
+							<output>((VT("/OUTDM") + (VT("/INDM") * 10)) / (VT("/INDM") * 10))
+								<evalType>point</evalType>
+							</output>
+							<output>ymin(((VT("/OUTDM") + (VT("/INDM") * 10)) / (VT("/INDM") * 10)))
 								<evalType>point</evalType>
 							</output>
 						</outputs>
@@ -444,9 +468,9 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 13 19:54:59 2025</timestamp>
-			<uuid>{b3688030-866d-44d7-83d0-f487bb6ddff8}</uuid>
-			<resultsname>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
+			<timestamp>Apr 21 13:41:15 2025</timestamp>
+			<uuid>{eb98a7a1-a9e6-4380-8903-55613a0558b0}</uuid>
+			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
@@ -454,11 +478,11 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas3-6.esat.kuleuven.be_r1017765_195459307</localpsfdir>
-			<psfdir>/users/students/r1017765/simulation/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/maestro/results/maestro/Interactive.0</psfdir>
+			<localpsfdir>/tmp/pc-klas1-2.esat.kuleuven.be_r0884392_134115925</localpsfdir>
+			<psfdir>/users/students/r0884392/simulation/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/maestro/results/maestro/Interactive.0.log</runlog>
+			<runlog>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/maestro/results/maestro/Interactive.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<note>

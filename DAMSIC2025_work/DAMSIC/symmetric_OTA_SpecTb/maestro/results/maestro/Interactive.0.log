@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Sun Apr 13 19:02:01 2025 
+Current time: Mon Apr 21 16:01:50 2025 
 Best design point: 1
 Design specs: 
 	DAMSIC_symmetric_OTA_SpecTb_1	corner	Nominal - 
@@ -11,10 +11,12 @@ Design specs:
 	OP("/I0/NM4" "region")		2
 	OP("/I0/PM5" "region")		2
 	OP("/I0/PM6" "region")		2
+	db20(VF("/OUTDM"))		Error	No
+	phaseDeg(VF("/OUTDM"))		Error	No
 Design parameters: 
 
 Interactive.0
 Number of points completed: 1
-Number of simulation errors: 0
+Number of simulation errors: 2
 Interactive.0 completed. 
-Current time: Sun Apr 13 19:02:04 2025 
+Current time: Mon Apr 21 16:01:53 2025 

@@ -155,7 +155,7 @@
 				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
-				<value>Append</value>
+				<value>Replace</value>
 			</plottingoption>
 			<plottingoption>plottype
 				<value>None</value>
@@ -176,7 +176,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>autoplotmode
-				<value>Append</value>
+				<value>Replace</value>
 			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
@@ -184,7 +184,7 @@
 				<value>(None)</value>
 			</exploreroption>
 			<exploreroption>autoplotmode
-				<value>Append</value>
+				<value>Replace</value>
 			</exploreroption>
 		</exploreroptions>
 		<incrementalsimsetup>
@@ -808,7 +808,7 @@
 						<value>Auto</value>
 					</plottingoption>
 					<plottingoption>autoplotmode
-						<value>Append</value>
+						<value>Replace</value>
 					</plottingoption>
 					<plottingoption>useMaestroPlottingTemplate
 						<value>yes</value>
@@ -885,7 +885,7 @@
 						<value>(None)</value>
 					</exploreroption>
 					<exploreroption>autoplotmode
-						<value>Append</value>
+						<value>Replace</value>
 					</exploreroption>
 				</exploreroptions>
 				<incrementalsimsetup>
@@ -1153,8 +1153,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 28 12:58:13 2025</timestamp>
-			<uuid>{771dfbae-5c3a-4ec5-9233-5cca384edaca}</uuid>
+			<timestamp>Apr 21 12:40:53 2025</timestamp>
+			<uuid>{3bc18268-dca6-4c93-948a-7681d4eb9fbd}</uuid>
 			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -1163,7 +1163,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas2-9.esat.kuleuven.be_r0884392_125813728</localpsfdir>
+			<localpsfdir>/tmp/pc-klas1-2.esat.kuleuven.be_r0884392_124053012</localpsfdir>
 			<psfdir>/users/students/r0884392/simulation/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

@@ -34,31 +34,31 @@
 						<value>0</value>
 					</var>
 					<var>Ln
-						<value>90n</value>
+						<value>1u</value>
 					</var>
 					<var>NFn
-						<value>100</value>
+						<value>1000</value>
 					</var>
 					<var>WFn
-						<value>605n</value>
+						<value>210n</value>
 					</var>
 					<var>VGSn
-						<value>500m</value>
+						<value>670m</value>
 					</var>
 					<var>VDSn
-						<value>250m</value>
+						<value>0.7</value>
 					</var>
 					<var>Lp
 						<value>90n</value>
 					</var>
 					<var>NFp
-						<value>500</value>
+						<value>100</value>
 					</var>
 					<var>WFp
-						<value>205n</value>
+						<value>337n</value>
 					</var>
 					<var>VGSp
-						<value>-500m</value>
+						<value>-700m</value>
 					</var>
 					<var>VDSp
 						<value>-300m</value>
@@ -206,7 +206,7 @@
 				<value></value>
 			</plottingoption>
 			<plottingoption>autoplotmode
-				<value>Append</value>
+				<value>Replace</value>
 			</plottingoption>
 			<plottingoption>distributedplot_enabled
 				<value>no</value>
@@ -217,7 +217,7 @@
 				<value>(None)</value>
 			</exploreroption>
 			<exploreroption>autoplotmode
-				<value>Append</value>
+				<value>Replace</value>
 			</exploreroption>
 		</exploreroptions>
 		<incrementalsimsetup>
@@ -279,31 +279,31 @@
 								<value>0</value>
 							</var>
 							<var>Ln
-								<value>90n</value>
+								<value>1u</value>
 							</var>
 							<var>NFn
-								<value>100</value>
+								<value>1000</value>
 							</var>
 							<var>WFn
-								<value>605n</value>
+								<value>210n</value>
 							</var>
 							<var>VGSn
-								<value>500m</value>
+								<value>670m</value>
 							</var>
 							<var>VDSn
-								<value>250m</value>
+								<value>0.7</value>
 							</var>
 							<var>Lp
 								<value>90n</value>
 							</var>
 							<var>NFp
-								<value>500</value>
+								<value>100</value>
 							</var>
 							<var>WFp
-								<value>205n</value>
+								<value>337n</value>
 							</var>
 							<var>VGSp
-								<value>-500m</value>
+								<value>-700m</value>
 							</var>
 							<var>VDSp
 								<value>-300m</value>
@@ -433,7 +433,7 @@
 						<value>Auto</value>
 					</plottingoption>
 					<plottingoption>autoplotmode
-						<value>Append</value>
+						<value>Replace</value>
 					</plottingoption>
 					<plottingoption>useMaestroPlottingTemplate
 						<value>yes</value>
@@ -510,7 +510,7 @@
 						<value>(None)</value>
 					</exploreroption>
 					<exploreroption>autoplotmode
-						<value>Append</value>
+						<value>Replace</value>
 					</exploreroption>
 				</exploreroptions>
 				<incrementalsimsetup>
@@ -542,8 +542,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 21 16:24:28 2025</timestamp>
-			<uuid>{063fe27c-c286-47e4-a7af-5c9d34882b9b}</uuid>
+			<timestamp>Apr 21 18:06:02 2025</timestamp>
+			<uuid>{79384908-8ced-491b-8172-3a2dcf68ddc0}</uuid>
 			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -552,7 +552,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas2-5.esat.kuleuven.be_r0884392_162428009</localpsfdir>
+			<localpsfdir>/tmp/pc-klas1-2.esat.kuleuven.be_r0884392_180602302</localpsfdir>
 			<psfdir>/users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

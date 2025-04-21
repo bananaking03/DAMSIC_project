@@ -387,8 +387,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 25 11:43:32 2025</timestamp>
-			<uuid>{72436860-f0fb-4117-b17a-89147b3b1f57}</uuid>
+			<timestamp>Apr 21 12:41:58 2025</timestamp>
+			<uuid>{5789a4f3-5925-4314-ae1d-7cfe2bd92943}</uuid>
 			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/SCAmplifier_trans_twopole/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -397,7 +397,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas2-5.esat.kuleuven.be_r0884392_114332525</localpsfdir>
+			<localpsfdir>/tmp/pc-klas1-2.esat.kuleuven.be_r0884392_124158939</localpsfdir>
 			<psfdir>/users/students/r0884392/simulation/DAMSIC/SCAmplifier_trans_twopole/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/SCAmplifier_trans_twopole/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

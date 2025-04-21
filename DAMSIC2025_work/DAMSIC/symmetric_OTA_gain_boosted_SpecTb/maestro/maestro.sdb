@@ -37,7 +37,7 @@
 						<value>0.2</value>
 					</var>
 					<var>gb_1_C
-						<value>135p</value>
+						<value>10p</value>
 					</var>
 					<var>gb_1_gm
 						<value>20m</value>
@@ -46,7 +46,7 @@
 						<value>20k</value>
 					</var>
 					<var>gb_2_C
-						<value>135p</value>
+						<value>10p</value>
 					</var>
 					<var>gb_2_gm
 						<value>20m</value>
@@ -202,7 +202,7 @@
 								<value>0.2</value>
 							</var>
 							<var>gb_1_C
-								<value>135p</value>
+								<value>10p</value>
 							</var>
 							<var>gb_1_gm
 								<value>20m</value>
@@ -211,7 +211,7 @@
 								<value>20k</value>
 							</var>
 							<var>gb_2_C
-								<value>135p</value>
+								<value>10p</value>
 							</var>
 							<var>gb_2_gm
 								<value>20m</value>
@@ -386,9 +386,9 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 13 20:10:47 2025</timestamp>
-			<uuid>{c2d0f2eb-82b5-4b15-aee0-520f55adfdb5}</uuid>
-			<resultsname>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0.rdb</resultsname>
+			<timestamp>Apr 21 16:02:08 2025</timestamp>
+			<uuid>{7e5e32c0-6d71-4b19-bc58-ace22a5194cd}</uuid>
+			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
@@ -396,11 +396,11 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas3-6.esat.kuleuven.be_r1017765_201047503</localpsfdir>
-			<psfdir>/users/students/r1017765/simulation/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0</psfdir>
+			<localpsfdir>/tmp/pc-klas1-2.esat.kuleuven.be_r0884392_160208071</localpsfdir>
+			<psfdir>/users/students/r0884392/simulation/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0.log</runlog>
+			<runlog>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<note>

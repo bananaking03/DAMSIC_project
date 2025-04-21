@@ -1,17 +1,15 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Fri Mar 28 12:58:14 2025 
+Current time: Mon Apr 21 12:40:53 2025 
 Best design point: 1
 Design specs: 
 	STB	corner	Nominal - 
-	Loop Gain Phase		Error	No
-	Loop Gain dB20		Error	No
 	DIFF PAC OUT		Error	No
 	CLK_PHI2		Error	No
 Design parameters: 
 
 Interactive.0
 Number of points completed: 1
-Number of simulation errors: 4
+Number of simulation errors: 2
 Interactive.0 completed. 
-Current time: Fri Mar 28 12:58:31 2025 
+Current time: Mon Apr 21 12:40:56 2025 
