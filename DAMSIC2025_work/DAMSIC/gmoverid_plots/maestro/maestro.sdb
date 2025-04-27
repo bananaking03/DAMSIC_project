@@ -37,31 +37,31 @@
 						<value>1u</value>
 					</var>
 					<var>NFn
-						<value>1000</value>
+						<value>103</value>
 					</var>
 					<var>WFn
-						<value>210n</value>
+						<value>1u</value>
 					</var>
 					<var>VGSn
-						<value>670m</value>
+						<value>506m</value>
 					</var>
 					<var>VDSn
-						<value>0.7</value>
+						<value>250m</value>
 					</var>
 					<var>Lp
-						<value>90n</value>
+						<value>200n</value>
 					</var>
 					<var>NFp
 						<value>100</value>
 					</var>
 					<var>WFp
-						<value>337n</value>
+						<value>5.29u</value>
 					</var>
 					<var>VGSp
-						<value>-700m</value>
+						<value>-450m</value>
 					</var>
 					<var>VDSp
-						<value>-300m</value>
+						<value>-250m</value>
 					</var>
 					<var>VSBp
 						<value>0</value>
@@ -282,31 +282,31 @@
 								<value>1u</value>
 							</var>
 							<var>NFn
-								<value>1000</value>
+								<value>103</value>
 							</var>
 							<var>WFn
-								<value>210n</value>
+								<value>1u</value>
 							</var>
 							<var>VGSn
-								<value>670m</value>
+								<value>506m</value>
 							</var>
 							<var>VDSn
-								<value>0.7</value>
+								<value>250m</value>
 							</var>
 							<var>Lp
-								<value>90n</value>
+								<value>200n</value>
 							</var>
 							<var>NFp
 								<value>100</value>
 							</var>
 							<var>WFp
-								<value>337n</value>
+								<value>5.29u</value>
 							</var>
 							<var>VGSp
-								<value>-700m</value>
+								<value>-450m</value>
 							</var>
 							<var>VDSp
-								<value>-300m</value>
+								<value>-250m</value>
 							</var>
 							<var>VSBp
 								<value>0</value>
@@ -542,8 +542,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 21 18:06:02 2025</timestamp>
-			<uuid>{79384908-8ced-491b-8172-3a2dcf68ddc0}</uuid>
+			<timestamp>Apr 27 21:36:22 2025</timestamp>
+			<uuid>{b66e6d5f-5a19-4f65-ab15-b22c60c6b5ae}</uuid>
 			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -552,7 +552,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas1-2.esat.kuleuven.be_r0884392_180602302</localpsfdir>
+			<localpsfdir>/tmp/pc-klas1-2.esat.kuleuven.be_r0884392_213622786</localpsfdir>
 			<psfdir>/users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

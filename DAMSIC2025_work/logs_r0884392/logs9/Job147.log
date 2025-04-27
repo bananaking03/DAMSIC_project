@@ -1,0 +1,1403 @@
+\# Program start time:     UTC 2025.04.27 14:24:53.311
+\# Local time: CEST (UTC+02:00) 2025.04.27 16:24:53.311
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 03/14/2023 19:53 (cpgsrv12) $
+\o Hierarchy:		/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.31  (64-bit addresses)
+\# Command line:	/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso391179 -mpshost pc-klas1-2.esat.kuleuven.be -davinciService DaVinciService_391179_1745755392 -log /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/logs_r0884392/logs9/Job147.log -licenseLockFileName /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/.tmp_r0884392/.pc-klas1-2.esat.kuleuven.be_391179 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 147
+\# Host name (type):	pc-klas1-2.esat.kuleuven.be (x86_64)
+\# Operating system:	Linux 5.14.0-503.38.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Apr 16 16:38:39 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:5412 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        623 MB
+\# Available memory:	     39,160 MB
+\# System memory:	     48,175 MB
+\# Maximum memory size:	     47,670 MB
+\# Max mem available:	     39,278 MB
+\# Initial memory used:	        118 MB
+\#        process size:	      1,539 MB
+\# Thread usage limits (effective/default):	maxthreads 5166/5166 maxload 12.00/12.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		r0884392
+\o Working Directory:	pc-klas1-2.esat.kuleuven.be:/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work
+\# Process Id:		539241
+\o 
+\o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso391179, host=pc-klas1-2.esat.kuleuven.be). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 539241 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [16:24:53.458666] Configured Lic search path (22.01-s002): 27002@license-extern.esat.kuleuven.be:/esat/micas-data/software/Cadence/ic_6.1.8.310/share/license/license.dat
+\# Memory report: using         266 MB, process size 1,816 MB at UTC 2025.04.27 14:24:55.492
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 539241' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = DAMSIC
+\o 	Cell         = gmoverid_plots
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.0
+\o 	Results DB   = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0.rdb
+\o 	Results Dir  = /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/1/DAMSIC_2023_gmoverid_plots_1
+\o 	Results Loc  = /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro
+\o 	Project Dir  = /users/students/r0884392/simulation
+\o 	Setup DB loc = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gmoverid_plots/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading gpdk045/libInit.il ...
+\o 	Loading gpdk045/loadCxt.ile ... done!
+\o 	Loading context 'gpdk045' from library 'gpdk045' ... done!
+\o 	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+\e 	Loading gpdk045/gpdk045_customFilter.il ... *Error* eval: unbound variable - axlRegisterCustomDeviceFilter
+\o failed!
+\o 	Loading gpdk045/libInitCustomExit.il ... 
+\o 	Loading Environment Settings ...
+\o 	Loading Model Management File ...
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 45nm PDK                       *           
+\o   *                        (gpdk045)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	VERSION: 4.0 (17-June-2014)
+\o 
+\o done!
+\o Failed to load gpdk045/libInit.il successfully!INFO (ADE-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o *Info*    Run start for points ((58 1) (58 2) (58 3) (58 4) (58 5)
+\o           (58 6) (58 7) (58 8) (58 9) (58 10))
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (58 1) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "1u"
+\o Setting var Lp = "300n"
+\o Setting var NFn = "100"
+\o Setting var NFp = "100"
+\o Setting var VDSn = "700m"
+\o Setting var VDSp = "-250m"
+\o Setting var VGSn = "670m"
+\o Setting var VGSp = "-410m"
+\o Setting var VSBn = "0"
+\o Setting var VSBp = "0"
+\o Setting var WFn = "1.85u"
+\o Setting var WFp = "6.5u"
+\o Setting temp(T) = 27
+\# Memory report: using         390 MB, process size 1,942 MB at UTC 2025.04.27 14:24:57.173
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/1/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/1/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (58 1)
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\# [16:24:57.215321] Periodic Lic check successful
+\# [16:24:57.215322] Feature usage summary:
+\o Begin Incremental Netlisting Apr 27 16:24:57 2025
+\o End netlisting Apr 27 16:24:57 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (58 1).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/1/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (58 1) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (58 2) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "2u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/2/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/2/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (58 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:24:59 2025
+\o End netlisting Apr 27 16:24:59 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (58 2).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/2/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (58 2) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (58 3) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "3u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/3/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/3/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (58 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:25:00 2025
+\o End netlisting Apr 27 16:25:00 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (58 3).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/3/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (58 3) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (58 4) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "4u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/4/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/4/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (58 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:25:01 2025
+\o End netlisting Apr 27 16:25:01 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (58 4).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/4/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (58 4) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (58 5) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "5u"
+\# Available memory:         38,840 MB at UTC 2025.04.27 14:25:03.109
+\# Memory report: Maximum memory size now 39,286 MB at UTC 2025.04.27 14:25:03.109
+\# Thread usage report: 18 active threads, active load 1.40 at UTC 2025.04.27 14:25:03.109
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/5/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/5/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (58 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:25:03 2025
+\o End netlisting Apr 27 16:25:03 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (58 5).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/5/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (58 5) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (58 6) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "6u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/6/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/6/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (58 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:25:04 2025
+\o End netlisting Apr 27 16:25:04 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (58 6).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/6/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (58 6) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (58 7) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "7u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/7/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/7/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (58 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:25:05 2025
+\o End netlisting Apr 27 16:25:05 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (58 7).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/7/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (58 7) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (58 8) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "8u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/8/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/8/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (58 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:25:07 2025
+\o End netlisting Apr 27 16:25:07 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (58 8).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/8/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (58 8) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (58 9) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "9u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/9/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/9/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (58 9)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:25:08 2025
+\o End netlisting Apr 27 16:25:08 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (58 9).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/9/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (58 9) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (58 10) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "10u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/10/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/10/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (58 10)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:25:09 2025
+\o End netlisting Apr 27 16:25:09 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (58 10).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/10/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (58 10) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = DAMSIC
+\o 	Cell         = gmoverid_plots
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.0
+\o 	Results DB   = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0.rdb
+\o 	Results Dir  = /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/1/DAMSIC_2023_gmoverid_plots_1
+\o 	Results Loc  = /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro
+\o 	Project Dir  = /users/students/r0884392/simulation
+\o 	Setup DB loc = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gmoverid_plots/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o INFO (ADE-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o *Info*    Run start for points ((59 1) (59 2) (59 3) (59 4) (59 5)
+\o           (59 6) (59 7) (59 8) (59 9) (59 10))
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (59 1) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "1u"
+\o Setting var Lp = "300n"
+\o Setting var NFn = "100"
+\o Setting var NFp = "100"
+\o Setting var VDSn = "700m"
+\o Setting var VDSp = "-250m"
+\o Setting var VGSn = "670m"
+\o Setting var VGSp = "-410m"
+\o Setting var VSBn = "0"
+\o Setting var VSBp = "0"
+\o Setting var WFn = "1.85u"
+\o Setting var WFp = "6.5u"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/1/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/1/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (59 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:26:14 2025
+\o End netlisting Apr 27 16:26:14 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (59 1).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/1/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (59 1) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (59 2) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "2u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/2/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/2/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (59 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:26:15 2025
+\o End netlisting Apr 27 16:26:15 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (59 2).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/2/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (59 2) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (59 3) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "3u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/3/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/3/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (59 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:26:17 2025
+\o End netlisting Apr 27 16:26:17 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (59 3).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/3/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (59 3) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (59 4) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "4u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/4/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/4/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (59 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:26:18 2025
+\o End netlisting Apr 27 16:26:18 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (59 4).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/4/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (59 4) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (59 5) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "5u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/5/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/5/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (59 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:26:19 2025
+\o End netlisting Apr 27 16:26:20 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (59 5).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/5/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (59 5) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (59 6) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "6u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/6/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/6/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (59 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:26:21 2025
+\o End netlisting Apr 27 16:26:21 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (59 6).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/6/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (59 6) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (59 7) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "7u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/7/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/7/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (59 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:26:22 2025
+\o End netlisting Apr 27 16:26:22 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (59 7).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/7/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (59 7) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (59 8) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "8u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/8/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/8/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (59 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:26:24 2025
+\o End netlisting Apr 27 16:26:24 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (59 8).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/8/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (59 8) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (59 9) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "9u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/9/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/9/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (59 9)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:26:25 2025
+\o End netlisting Apr 27 16:26:25 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (59 9).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/9/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (59 9) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (59 10) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Ln = "10u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/10/DAMSIC_2023_gmoverid_plots_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/10/DAMSIC_2023_gmoverid_plots_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (59 10)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Apr 27 16:26:26 2025
+\o End netlisting Apr 27 16:26:26 2025
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ] for Point ID (59 10).
+\o 
+\o Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/10/DAMSIC_2023_gmoverid_plots_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (59 10) on testbench [
+\o           DAMSIC_2023_gmoverid_plots_1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Job 147 timed out after no activity in 300 seconds.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

@@ -58,19 +58,19 @@
 						<value>135p</value>
 					</var>
 					<var>gb_1_gm
-						<value>20m</value>
+						<value>15m</value>
 					</var>
 					<var>gb_1_ro
-						<value>20k</value>
+						<value>15k</value>
 					</var>
 					<var>gb_2_C
 						<value>135p</value>
 					</var>
 					<var>gb_2_gm
-						<value>20m</value>
+						<value>15m</value>
 					</var>
 					<var>gb_2_ro
-						<value>20k</value>
+						<value>15k</value>
 					</var>
 					<var>INCM
 						<value>550m</value>
@@ -252,19 +252,19 @@
 								<value>135p</value>
 							</var>
 							<var>gb_1_gm
-								<value>20m</value>
+								<value>15m</value>
 							</var>
 							<var>gb_1_ro
-								<value>20k</value>
+								<value>15k</value>
 							</var>
 							<var>gb_2_C
 								<value>135p</value>
 							</var>
 							<var>gb_2_gm
-								<value>20m</value>
+								<value>15m</value>
 							</var>
 							<var>gb_2_ro
-								<value>20k</value>
+								<value>15k</value>
 							</var>
 							<var>INCM
 								<value>550m</value>
@@ -444,8 +444,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 21 12:37:34 2025</timestamp>
-			<uuid>{10064a20-ebb3-45fb-9512-2c4880bd7b57}</uuid>
+			<timestamp>Apr 27 16:53:27 2025</timestamp>
+			<uuid>{85952c3c-c9f4-4d60-b445-88305be9777e}</uuid>
 			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_PAC_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -454,7 +454,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas1-2.esat.kuleuven.be_r0884392_123734893</localpsfdir>
+			<localpsfdir>/tmp/pc-klas1-2.esat.kuleuven.be_r0884392_165327128</localpsfdir>
 			<psfdir>/users/students/r0884392/simulation/DAMSIC/symmetric_OTA_gain_boosted_PAC_TB/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/symmetric_OTA_gain_boosted_PAC_TB/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

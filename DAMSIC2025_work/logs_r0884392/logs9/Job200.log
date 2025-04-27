@@ -29,25 +29,25 @@ INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC ver
 
 
 
-*Info*    Run start for Point ID (71 1) on testbench [
+*Info*    Run start for Point ID (13 1) on testbench [
           DAMSIC_2023_gmoverid_plots_1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var Ln = "1u"
-Setting var Lp = "90n"
-Setting var NFn = "100"
+Setting var Ln = "1.25u"
+Setting var Lp = "570n"
+Setting var NFn = "166"
 Setting var NFp = "100"
-Setting var VDSn = "0.55"
-Setting var VDSp = "-300m"
-Setting var VGSn = "520m"
-Setting var VGSp = "-700m"
-Setting var VSBn = "0"
+Setting var VDSn = "700m"
+Setting var VDSp = "-250m"
+Setting var VGSn = "670m"
+Setting var VGSp = "-410m"
+Setting var VSBn = "150m"
 Setting var VSBp = "0"
-Setting var WFn = "235n"
-Setting var WFp = "337n"
+Setting var WFn = "1u"
+Setting var WFp = "8.8u"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
@@ -58,11 +58,11 @@ Setting temp(T) = 27
           /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/1/DAMSIC_2023_gmoverid_plots_1
 
 
-*Info*    Creating Netlist for Point ID (71 1)
+*Info*    Creating Netlist for Point ID (13 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 21 17:51:56 2025
-End netlisting Apr 21 17:51:56 2025
+Begin Incremental Netlisting Apr 27 19:28:14 2025
+End netlisting Apr 27 19:28:14 2025
 
 	The netlist is up to date.
 	Time taken to compare the design with netlist:   0.0s
@@ -71,7 +71,7 @@ compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          DAMSIC_2023_gmoverid_plots_1 ] for Point ID (71 1).
+          DAMSIC_2023_gmoverid_plots_1 ] for Point ID (13 1).
 
 Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/1/DAMSIC_2023_gmoverid_plots_1/psf.
 compose simulator input file...
@@ -88,7 +88,7 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (71 1) on testbench [
+*Info*    Run complete for Point ID (13 1) on testbench [
           DAMSIC_2023_gmoverid_plots_1 ].
 
 

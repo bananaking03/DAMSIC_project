@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = DAMSIC
-	Cell         = symmetric_OTA_SpecTb
+	Cell         = gmoverid_plots
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
 	State Name   = Interactive.0
-	Results DB   = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0.rdb
-	Results Dir  = /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1
-	Results Loc  = /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro
+	Results DB   = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/1/DAMSIC_2023_gmoverid_plots_1
+	Results Loc  = /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro
 	Project Dir  = /users/students/r0884392/simulation
-	Setup DB loc = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_SpecTb/maestro
+	Setup DB loc = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gmoverid_plots/maestro
 	File Encoding = 0
 
 
@@ -29,42 +29,40 @@ INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC ver
 
 
 
-*Info*    Run start for Point ID (0 1) on testbench [
-          DAMSIC_symmetric_OTA_SpecTb_1 ].
+*Info*    Run start for Point ID (50 1) on testbench [
+          DAMSIC_2023_gmoverid_plots_1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var INCM = "0.55"
-Setting var VOCMRef = "550m"
-Setting var b5 = "1"
-Setting var b6 = "0.2"
-Setting var diffBias = "0.7"
-Setting var length = "90n"
-Setting var mult = "1"
-Setting var nf_Bias = "4000"
-Setting var nf_Inp = "600"
-Setting var nf_M2 = "300"
-Setting var nf_M3 = "900"
-Setting var nf_M4 = "100"
-Setting var nf_M5 = "500"
-Setting var nf_M6 = "100"
+Setting var Ln = "1u"
+Setting var Lp = "300n"
+Setting var NFn = "100"
+Setting var NFp = "100"
+Setting var VDSn = "250m"
+Setting var VDSp = "-250m"
+Setting var VGSn = "555m"
+Setting var VGSp = "-400m"
+Setting var VSBn = "0"
+Setting var VSBp = "0"
+Setting var WFn = "1.68u"
+Setting var WFp = "6.5u"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1/netlist
+          /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/1/DAMSIC_2023_gmoverid_plots_1/netlist
 
 
 *Info*    Data Directory    =
-          /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1
+          /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/1/DAMSIC_2023_gmoverid_plots_1
 
 
-*Info*    Creating Netlist for Point ID (0 1)
+*Info*    Creating Netlist for Point ID (50 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 21 16:01:51 2025
-End netlisting Apr 21 16:01:51 2025
+Begin Incremental Netlisting Apr 27 16:12:30 2025
+End netlisting Apr 27 16:12:30 2025
 
 	The netlist is up to date.
 	Time taken to compare the design with netlist:   0.0s
@@ -73,9 +71,9 @@ compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          DAMSIC_symmetric_OTA_SpecTb_1 ] for Point ID (0 1).
+          DAMSIC_2023_gmoverid_plots_1 ] for Point ID (50 1).
 
-Delete psf data in /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1/psf.
+Delete psf data in /users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0/1/DAMSIC_2023_gmoverid_plots_1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -89,21 +87,9 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
-WARNING (OCN-6038): Results ac are not available for /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1/psf. Use results() for a list of available results.
-WARNING (OCN-6038): Results ac are not available for /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1/psf. Use results() for a list of available results.
-ERROR (EXPLORER-2709): Evaluation of output 'phaseDeg(VF("/OUTDM"))' returned 'nil' for point:'1' test:'DAMSIC_symmetric_OTA_SpecTb_1'
-	Expression:'phaseDeg(VF("/OUTDM"))'.
-Ensure that the definition of output is correct.
 
-WARNING (OCN-6038): Results ac are not available for /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1/psf. Use results() for a list of available results.
-WARNING (OCN-6038): Results ac are not available for /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_SpecTb_1/psf. Use results() for a list of available results.
-ERROR (EXPLORER-2709): Evaluation of output 'db20(VF("/OUTDM"))' returned 'nil' for point:'1' test:'DAMSIC_symmetric_OTA_SpecTb_1'
-	Expression:'db20(VF("/OUTDM"))'.
-Ensure that the definition of output is correct.
-
-
-*Info*    Run complete for Point ID (0 1) on testbench [
-          DAMSIC_symmetric_OTA_SpecTb_1 ].
+*Info*    Run complete for Point ID (50 1) on testbench [
+          DAMSIC_2023_gmoverid_plots_1 ].
 
 
 

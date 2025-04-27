@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 02/10/2023 14:05 (cpgsrv13) $
 \o Sub version:		sub-version  s312 
-\o Arguments:		-unmapped -mpssession virtuoso46583 -mpshost pc-klas1-2.esat.kuleuven.be 
+\o Arguments:		-unmapped -mpssession virtuoso2359364 -mpshost pc-klas1-2.esat.kuleuven.be 
 \o Working Directory:	pc-klas1-2.esat.kuleuven.be:/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work
 \o 64-bit offsets
 \o Qt version: 		5.9.1
@@ -15,215 +15,34 @@
 \a nrResizeWindow(cdsLibManager list(160 271 821 491))
 \a cdsLibManager->libListBox->value = "DAMSIC"
 \a cdsLibManager->libLineEdit->value = "DAMSIC"
-\a cdsLibManager->cellListBox->value = "symmetric_OTA_gain_boosted_SpecTb"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_gain_boosted_SpecTb"
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "DAMSIC"
-\a cdsLibManager->libLineEdit->value = "DAMSIC"
-\a cdsLibManager->cellListBox->value = "symmetric_OTA_gain_boosted_SpecTb"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_gain_boosted_SpecTb"
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "basic"
-\a cdsLibManager->libLineEdit->value = "basic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->libListBox->value = "SESSION_1_EXCERCISE"
-\a cdsLibManager->libLineEdit->value = "SESSION_1_EXCERCISE"
-\a cdsLibManager->libListBox->value = "DAMSIC"
-\a cdsLibManager->libLineEdit->value = "DAMSIC"
-\a cdsLibManager->cellListBox->value = "CMOS_Bias"
-\a cdsLibManager->cellLineEdit->value = "CMOS_Bias"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "IGS_Testbench"
-\a cdsLibManager->cellLineEdit->value = "IGS_Testbench"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "OTA_Transient_AC_TB"
-\a cdsLibManager->cellLineEdit->value = "OTA_Transient_AC_TB"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "SCAmplifier_Transient_TB"
-\a cdsLibManager->cellLineEdit->value = "SCAmplifier_Transient_TB"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "gmoverid_plots"
-\a cdsLibManager->cellLineEdit->value = "gmoverid_plots"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "symmetric_OTA_gain_boosted_SpecTb"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_gain_boosted_SpecTb"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "symmetric_OTA_gain_boosted_STB_TB"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_gain_boosted_STB_TB"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 21 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "DAMSIC"
-\a cdsLibManager->libLineEdit->value = "DAMSIC"
-\a cdsLibManager->cellListBox->value = "symmetric_OTA_gain_boosted_STB_TB"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_gain_boosted_STB_TB"
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "demo_SCAmplifier_PAC_TB"
-\a cdsLibManager->cellLineEdit->value = "demo_SCAmplifier_PAC_TB"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\a cdsLibManager->cellListBox->value = "idealOTA_2POLE"
-\a cdsLibManager->cellLineEdit->value = "idealOTA_2POLE"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "idealSwitch"
-\a cdsLibManager->cellLineEdit->value = "idealSwitch"
-\a cdsLibManager->cellListBox->value = "sym_OTA_SCAmplifier_PAC_TB"
-\a cdsLibManager->cellLineEdit->value = "sym_OTA_SCAmplifier_PAC_TB"
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\a cdsLibManager->cellListBox->value = "symmetric_OTA"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->FileNewCVButton->value = t
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "DAMSIC"
-\a cdsLibManager->libLineEdit->value = "DAMSIC"
-\a cdsLibManager->cellListBox->value = "symmetric_OTA"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "symmetric_OTA_gain_boosted_SpecTb"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_gain_boosted_SpecTb"
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "gmoverid_plots"
-\a cdsLibManager->cellLineEdit->value = "gmoverid_plots"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "symmetric_OTA"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellListBox->value = "symmetric_OTA_SpecTb"
 \a cdsLibManager->cellLineEdit->value = "symmetric_OTA_SpecTb"
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\a cdsLibManager->cellListBox->value = "symmetric_OTA"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "symmetric_OTA_SpecTb"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_SpecTb"
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "symmetric_OTA_gain_boosted_SpecTb"
+\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_gain_boosted_SpecTb"
 \a cdsLibManager->viewListBox->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = "maestro"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 0 0)
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "symmetric_OTA_gain_boosted"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_gain_boosted"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "DAMSIC"
+\a cdsLibManager->libLineEdit->value = "DAMSIC"
 \a cdsLibManager->cellListBox->value = "symmetric_OTA_gain_boosted_SpecTb"
 \a cdsLibManager->cellLineEdit->value = "symmetric_OTA_gain_boosted_SpecTb"
 \a cdsLibManager->viewListBox->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = "maestro"
-\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = "maestro"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a exit(0)
