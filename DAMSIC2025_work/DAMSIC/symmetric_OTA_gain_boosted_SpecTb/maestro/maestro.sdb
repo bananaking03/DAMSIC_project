@@ -524,9 +524,9 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 27 22:17:34 2025</timestamp>
-			<uuid>{d2457a23-ff05-4555-8f92-1194c108b641}</uuid>
-			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0.rdb</resultsname>
+			<timestamp>Apr 28 22:34:02 2025</timestamp>
+			<uuid>{930dc2ce-70b7-4a38-af05-9b87f19ca147}</uuid>
+			<resultsname>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
@@ -534,11 +534,11 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas1-2.esat.kuleuven.be_r0884392_221734613</localpsfdir>
-			<psfdir>/users/students/r0884392/simulation/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0</psfdir>
+			<localpsfdir>/tmp/pc-klas1-6.esat.kuleuven.be_r1017765_223402739</localpsfdir>
+			<psfdir>/users/students/r1017765/simulation/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0.log</runlog>
+			<runlog>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<note>

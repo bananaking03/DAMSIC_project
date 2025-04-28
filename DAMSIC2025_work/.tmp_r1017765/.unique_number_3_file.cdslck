@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      r1017765
+HostName                       pc-klas1-6.esat.kuleuven.be
+ProcessIdentifier              79082
+ProcessCreationTime_UTC        1745876532
+ProcessCreationTime_Readable   Mon Apr 28 23:42:12 2025 CEST
+AppIdentifier                  /esat/micas-data/software/Cadence/ic_6.1.8.310/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Lock file for generating unique number for ICRP command and log file directories.
+FilePathUsedToEditLock         /users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/.tmp_r1017765/.unique_number_3_file
+TimeEditLocked                 Mon Apr 28 23:42:35 2025 CEST

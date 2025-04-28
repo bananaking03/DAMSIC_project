@@ -1,46 +1,41 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 02/10/2023 14:05 (cpgsrv13) $
 \o Sub version:		sub-version  s312 
-\o Arguments:		-unmapped -mpssession virtuoso2359364 -mpshost pc-klas1-2.esat.kuleuven.be 
-\o Working Directory:	pc-klas1-2.esat.kuleuven.be:/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work
+\o Arguments:		-unmapped -mpssession virtuoso111888 -mpshost pc-klas1-6.esat.kuleuven.be 
+\o Working Directory:	pc-klas1-6.esat.kuleuven.be:/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work
 \o 64-bit offsets
 \o Qt version: 		5.9.1
-\o changeWorkingDir("/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work") unnecessary.
+\o changeWorkingDir("/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work") unnecessary.
 \o ddSetForcedLib("") unnecessary.
-\o Log file is "/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/libManager.log".
+\o Log file is "/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/libManager.log".
 \o Opening libManager window.
 \a nrSetWindowVisibility(cdsLibManager "show")
 \o MPS service: map window
 \o Library Manager customization server connected.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(160 271 821 491))
+\a nrResizeWindow(cdsLibManager list(518 82 921 636))
 \a cdsLibManager->libListBox->value = "DAMSIC"
 \a cdsLibManager->libLineEdit->value = "DAMSIC"
-\a cdsLibManager->cellListBox->value = "symmetric_OTA_SpecTb"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_SpecTb"
-\a cdsLibManager->cellListBox->value = "symmetric_OTA_gain_boosted_SpecTb"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_gain_boosted_SpecTb"
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "DAMSIC"
-\a cdsLibManager->libLineEdit->value = "DAMSIC"
-\a cdsLibManager->cellListBox->value = "symmetric_OTA_gain_boosted_SpecTb"
-\a cdsLibManager->cellLineEdit->value = "symmetric_OTA_gain_boosted_SpecTb"
-\a cdsLibManager->viewListBox->value = "maestro"
-\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->cellListBox->value = "demo_SCAmplifier_PAC_TB"
+\a cdsLibManager->cellLineEdit->value = "demo_SCAmplifier_PAC_TB"
+\a cdsLibManager->cellListBox->value = "demo_TH_PNOISE_TB"
+\a cdsLibManager->cellLineEdit->value = "demo_TH_PNOISE_TB"
+\a cdsLibManager->cellListBox->value = "gain_booster_nmos_SpecTb"
+\a cdsLibManager->cellLineEdit->value = "gain_booster_nmos_SpecTb"
+\a cdsLibManager->cellListBox->value = "gain_booster_pmos"
+\a cdsLibManager->cellLineEdit->value = "gain_booster_pmos"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "gain_booster_pmos_SpecTb"
+\a cdsLibManager->cellLineEdit->value = "gain_booster_pmos_SpecTb"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "maestro"
 \a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \a _lmgrCloseIconify("cdsLibManager" 1)
 \o MPS service: shutdown

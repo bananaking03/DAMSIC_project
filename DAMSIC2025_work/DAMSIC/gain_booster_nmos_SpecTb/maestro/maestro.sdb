@@ -410,9 +410,9 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 27 21:58:56 2025</timestamp>
-			<uuid>{8383151d-d5fa-4c31-9d46-5372477a138f}</uuid>
-			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gain_booster_nmos_SpecTb/maestro/results/maestro/Interactive.0.rdb</resultsname>
+			<timestamp>Apr 28 22:53:24 2025</timestamp>
+			<uuid>{a4837d7f-c4ad-4a66-932a-9a51e091eaa6}</uuid>
+			<resultsname>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gain_booster_nmos_SpecTb/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
@@ -420,11 +420,11 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas1-2.esat.kuleuven.be_r0884392_215856877</localpsfdir>
-			<psfdir>/users/students/r0884392/simulation/DAMSIC/gain_booster_nmos_SpecTb/maestro/results/maestro/Interactive.0</psfdir>
+			<localpsfdir>/tmp/pc-klas1-6.esat.kuleuven.be_r1017765_225324343</localpsfdir>
+			<psfdir>/users/students/r1017765/simulation/DAMSIC/gain_booster_nmos_SpecTb/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/gain_booster_nmos_SpecTb/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gain_booster_nmos_SpecTb/maestro/results/maestro/Interactive.0.log</runlog>
+			<runlog>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gain_booster_nmos_SpecTb/maestro/results/maestro/Interactive.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<note>

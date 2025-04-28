@@ -1,0 +1,96 @@
+\# Program start time:     UTC 2025.04.28 20:53:21.546
+\# Local time: CEST (UTC+02:00) 2025.04.28 22:53:21.546
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 03/14/2023 19:53 (cpgsrv12) $
+\o Hierarchy:		/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.31  (64-bit addresses)
+\# Command line:	/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso11482 -mpshost pc-klas1-6.esat.kuleuven.be -davinciService DaVinciService_11482_1745872437 -log /users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/logs_r1017765/logs3/Job38.log -licenseLockFileName /users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/.tmp_r1017765/.pc-klas1-6.esat.kuleuven.be_11482 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 38
+\# Host name (type):	pc-klas1-6.esat.kuleuven.be (x86_64)
+\# Operating system:	Linux 5.14.0-503.38.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Apr 16 16:38:39 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:1201 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        624 MB
+\# Available memory:	     42,753 MB
+\# System memory:	     48,245 MB
+\# Maximum memory size:	     47,739 MB
+\# Max mem available:	     42,872 MB
+\# Initial memory used:	        118 MB
+\#        process size:	      1,539 MB
+\# Thread usage limits (effective/default):	maxthreads 5166/5166 maxload 12.00/12.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		r1017765
+\o Working Directory:	pc-klas1-6.esat.kuleuven.be:/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work
+\# Process Id:		24382
+\o 
+\o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\w Qt Warning: setNativeLocks failed: "Resource temporarily unavailable"
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso11482, host=pc-klas1-6.esat.kuleuven.be). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 24382 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [22:53:21.458618] Configured Lic search path (22.01-s002): 27002@license-extern.esat.kuleuven.be:/esat/micas-data/software/Cadence/ic_6.1.8.310/share/license/license.dat
+\# Memory report: using         266 MB, process size 1,816 MB at UTC 2025.04.28 20:53:23.360
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 24382' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
+\# Available memory:         42,592 MB at UTC 2025.04.28 20:53:32.168
+\# Memory report: Maximum memory size now 42,878 MB at UTC 2025.04.28 20:53:32.168
+\# Thread usage report: 18 active threads, active load 1.40 at UTC 2025.04.28 20:53:32.168

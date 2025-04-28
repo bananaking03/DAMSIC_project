@@ -49,16 +49,16 @@
 						<value>250m</value>
 					</var>
 					<var>Lp
-						<value>200n</value>
+						<value>1u</value>
 					</var>
 					<var>NFp
 						<value>100</value>
 					</var>
 					<var>WFp
-						<value>5.29u</value>
+						<value>0.38u</value>
 					</var>
 					<var>VGSp
-						<value>-450m</value>
+						<value>-555m</value>
 					</var>
 					<var>VDSp
 						<value>-250m</value>
@@ -294,16 +294,16 @@
 								<value>250m</value>
 							</var>
 							<var>Lp
-								<value>200n</value>
+								<value>1u</value>
 							</var>
 							<var>NFp
 								<value>100</value>
 							</var>
 							<var>WFp
-								<value>5.29u</value>
+								<value>0.38u</value>
 							</var>
 							<var>VGSp
-								<value>-450m</value>
+								<value>-555m</value>
 							</var>
 							<var>VDSp
 								<value>-250m</value>
@@ -542,9 +542,9 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 27 21:36:22 2025</timestamp>
-			<uuid>{b66e6d5f-5a19-4f65-ab15-b22c60c6b5ae}</uuid>
-			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0.rdb</resultsname>
+			<timestamp>Apr 29 00:00:19 2025</timestamp>
+			<uuid>{0c1122f2-44ee-43ef-a31f-a135f634e84f}</uuid>
+			<resultsname>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
@@ -552,11 +552,11 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas1-2.esat.kuleuven.be_r0884392_213622786</localpsfdir>
-			<psfdir>/users/students/r0884392/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0</psfdir>
+			<localpsfdir>/tmp/pc-klas1-6.esat.kuleuven.be_r1017765_000019439</localpsfdir>
+			<psfdir>/users/students/r1017765/simulation/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0.log</runlog>
+			<runlog>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gmoverid_plots/maestro/results/maestro/Interactive.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<note>

@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Sun Apr 27 22:17:34 2025 
+Current time: Mon Apr 28 22:34:03 2025 
 Best design point: 1
 Design specs: 
 	DAMSIC_symmetric_OTA_gain_boosted_SpecTb_1	corner	Nominal - 
@@ -17,4 +17,4 @@ Interactive.0
 Number of points completed: 1
 Number of simulation errors: 0
 Interactive.0 completed. 
-Current time: Sun Apr 27 22:17:38 2025 
+Current time: Mon Apr 28 22:34:05 2025 
