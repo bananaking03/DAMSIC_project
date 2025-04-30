@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      r1017765
+HostName                       pc-klas1-13.esat.kuleuven.be
+ProcessIdentifier              283900
+ProcessCreationTime_UTC        1745952729
+ProcessCreationTime_Readable   Tue Apr 29 20:52:09 2025 CEST
+AppIdentifier                  /esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/logs_r1017765/logs4/Job172.log
+TimeEditLocked                 Tue Apr 29 20:52:09 2025 CEST

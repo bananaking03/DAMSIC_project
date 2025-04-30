@@ -37,7 +37,7 @@
 						<value>0.23p</value>
 					</var>
 					<var>Cin
-						<value>2.34p</value>
+						<value>2.347p</value>
 					</var>
 					<var>Cl
 						<value>2p</value>
@@ -113,6 +113,75 @@
 					</var>
 					<var>VOCMRef
 						<value>550m</value>
+					</var>
+					<var>ln0
+						<value>1.8u</value>
+					</var>
+					<var>ln2
+						<value>1u</value>
+					</var>
+					<var>ln3
+						<value>1u</value>
+					</var>
+					<var>ln4
+						<value>1u</value>
+					</var>
+					<var>lp0
+						<value>1u</value>
+					</var>
+					<var>lp1
+						<value>200n</value>
+					</var>
+					<var>nfn0
+						<value>100</value>
+					</var>
+					<var>nfn2
+						<value>1500</value>
+					</var>
+					<var>nfn3
+						<value>100</value>
+					</var>
+					<var>nfn4
+						<value>103</value>
+					</var>
+					<var>nfp0
+						<value>100</value>
+					</var>
+					<var>nfp1
+						<value>100</value>
+					</var>
+					<var>wfn0
+						<value>2.5u</value>
+					</var>
+					<var>wfn2
+						<value>10u</value>
+					</var>
+					<var>wfn3
+						<value>1u</value>
+					</var>
+					<var>wfn4
+						<value>1u</value>
+					</var>
+					<var>wfp0
+						<value>1.82u</value>
+					</var>
+					<var>wfp1
+						<value>5.29u</value>
+					</var>
+					<var>curr_b
+						<value>300m</value>
+					</var>
+					<var>nm3_b
+						<value>786m</value>
+					</var>
+					<var>nm4_b
+						<value>506m</value>
+					</var>
+					<var>pm0_b
+						<value>400m</value>
+					</var>
+					<var>pm1_b
+						<value>645m</value>
 					</var>
 				</vars>
 				<origoptions>
@@ -231,7 +300,7 @@
 								<value>0.23p</value>
 							</var>
 							<var>Cin
-								<value>2.34p</value>
+								<value>2.347p</value>
 							</var>
 							<var>Cl
 								<value>2p</value>
@@ -307,6 +376,75 @@
 							</var>
 							<var>VOCMRef
 								<value>550m</value>
+							</var>
+							<var>ln0
+								<value>1.8u</value>
+							</var>
+							<var>ln2
+								<value>1u</value>
+							</var>
+							<var>ln3
+								<value>1u</value>
+							</var>
+							<var>ln4
+								<value>1u</value>
+							</var>
+							<var>lp0
+								<value>1u</value>
+							</var>
+							<var>lp1
+								<value>200n</value>
+							</var>
+							<var>nfn0
+								<value>100</value>
+							</var>
+							<var>nfn2
+								<value>1500</value>
+							</var>
+							<var>nfn3
+								<value>100</value>
+							</var>
+							<var>nfn4
+								<value>103</value>
+							</var>
+							<var>nfp0
+								<value>100</value>
+							</var>
+							<var>nfp1
+								<value>100</value>
+							</var>
+							<var>wfn0
+								<value>2.5u</value>
+							</var>
+							<var>wfn2
+								<value>10u</value>
+							</var>
+							<var>wfn3
+								<value>1u</value>
+							</var>
+							<var>wfn4
+								<value>1u</value>
+							</var>
+							<var>wfp0
+								<value>1.82u</value>
+							</var>
+							<var>wfp1
+								<value>5.29u</value>
+							</var>
+							<var>curr_b
+								<value>300m</value>
+							</var>
+							<var>nm3_b
+								<value>786m</value>
+							</var>
+							<var>nm4_b
+								<value>506m</value>
+							</var>
+							<var>pm0_b
+								<value>400m</value>
+							</var>
+							<var>pm1_b
+								<value>645m</value>
 							</var>
 						</vars>
 						<origoptions>
@@ -444,9 +582,9 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 27 16:53:27 2025</timestamp>
-			<uuid>{85952c3c-c9f4-4d60-b445-88305be9777e}</uuid>
-			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_PAC_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
+			<timestamp>Apr 30 03:32:22 2025</timestamp>
+			<uuid>{7dc4ed5e-fdf0-4b8f-b622-857ccdb489d7}</uuid>
+			<resultsname>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_PAC_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
@@ -454,11 +592,11 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas1-2.esat.kuleuven.be_r0884392_165327128</localpsfdir>
-			<psfdir>/users/students/r0884392/simulation/DAMSIC/symmetric_OTA_gain_boosted_PAC_TB/maestro/results/maestro/Interactive.0</psfdir>
+			<localpsfdir>/tmp/pc-klas1-13.esat.kuleuven.be_r1017765_033222750</localpsfdir>
+			<psfdir>/users/students/r1017765/simulation/DAMSIC/symmetric_OTA_gain_boosted_PAC_TB/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/symmetric_OTA_gain_boosted_PAC_TB/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_PAC_TB/maestro/results/maestro/Interactive.0.log</runlog>
+			<runlog>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_PAC_TB/maestro/results/maestro/Interactive.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<note>

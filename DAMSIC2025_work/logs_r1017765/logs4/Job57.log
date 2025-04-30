@@ -1,0 +1,115 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = DAMSIC
+	Cell         = symmetric_OTA_new_SpecTb
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_new_SpecTb/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r1017765/simulation/DAMSIC/symmetric_OTA_new_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_new_SpecTb_1
+	Results Loc  = /users/students/r1017765/simulation/DAMSIC/symmetric_OTA_new_SpecTb/maestro/results/maestro
+	Project Dir  = /users/students/r1017765/simulation
+	Setup DB loc = /users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_new_SpecTb/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (28 1) on testbench [
+          DAMSIC_symmetric_OTA_new_SpecTb_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var INCM = "550m"
+Setting var INDM = "0"
+Setting var ln0 = "500n"
+Setting var ln2 = "2u"
+Setting var ln3 = "2.84u"
+Setting var lp0 = "1u"
+Setting var lp1 = "300n"
+Setting var lp3 = "2u"
+Setting var lp4 = "2u"
+Setting var nfn0 = "100"
+Setting var nfn2 = "100"
+Setting var nfn3 = "100"
+Setting var nfp0 = "150"
+Setting var nfp1 = "100"
+Setting var nfp3 = "100"
+Setting var nfp4 = "100"
+Setting temp(T) = 27
+Setting var vn2 = "769m"
+Setting var vp0 = "740m"
+Setting var vp3 = "631m"
+Setting var vp4 = "379m"
+Setting var wfn0 = "1u"
+Setting var wfn2 = "1.95u"
+Setting var wfn3 = "2.62u"
+Setting var wfp0 = "9.15u"
+Setting var wfp1 = "1.58u"
+Setting var wfp3 = "2.88u"
+Setting var wfp4 = "3.527u"
+
+*Info*    Netlist Directory =
+          /users/students/r1017765/simulation/DAMSIC/symmetric_OTA_new_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_new_SpecTb_1/netlist
+
+
+*Info*    Data Directory    =
+          /users/students/r1017765/simulation/DAMSIC/symmetric_OTA_new_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_new_SpecTb_1
+
+
+*Info*    Creating Netlist for Point ID (28 1)
+
+generate netlist...
+Begin Incremental Netlisting Apr 30 02:02:02 2025
+End netlisting Apr 30 02:02:02 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          DAMSIC_symmetric_OTA_new_SpecTb_1 ] for Point ID (28 1).
+
+Delete psf data in /users/students/r1017765/simulation/DAMSIC/symmetric_OTA_new_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_new_SpecTb_1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (28 1) on testbench [
+          DAMSIC_symmetric_OTA_new_SpecTb_1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

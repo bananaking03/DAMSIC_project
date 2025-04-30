@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon Apr 28 22:53:24 2025 
+Current time: Wed Apr 30 02:47:05 2025 
 Best design point: 1
 Design specs: 
 	DAMSIC_gain_booster_nmos_SpecTb_1	corner	Nominal - 
@@ -18,4 +18,4 @@ Interactive.0
 Number of points completed: 1
 Number of simulation errors: 2
 Interactive.0 completed. 
-Current time: Mon Apr 28 22:53:26 2025 
+Current time: Wed Apr 30 02:47:07 2025 

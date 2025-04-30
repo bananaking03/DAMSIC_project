@@ -85,7 +85,7 @@
 						<value>400m</value>
 					</var>
 					<var>pm1_b
-						<value>645m</value>
+						<value>500m</value>
 					</var>
 					<var>vdd
 						<value>1.1</value>
@@ -262,7 +262,7 @@
 								<value>400m</value>
 							</var>
 							<var>pm1_b
-								<value>645m</value>
+								<value>500m</value>
 							</var>
 							<var>vdd
 								<value>1.1</value>
@@ -410,8 +410,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 28 22:53:24 2025</timestamp>
-			<uuid>{a4837d7f-c4ad-4a66-932a-9a51e091eaa6}</uuid>
+			<timestamp>Apr 30 02:47:05 2025</timestamp>
+			<uuid>{2aae1fb4-4ede-41c4-90b2-27df2cad9ff3}</uuid>
 			<resultsname>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/gain_booster_nmos_SpecTb/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -420,7 +420,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas1-6.esat.kuleuven.be_r1017765_225324343</localpsfdir>
+			<localpsfdir>/tmp/pc-klas1-13.esat.kuleuven.be_r1017765_024705175</localpsfdir>
 			<psfdir>/users/students/r1017765/simulation/DAMSIC/gain_booster_nmos_SpecTb/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/gain_booster_nmos_SpecTb/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
