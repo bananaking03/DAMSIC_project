@@ -399,9 +399,9 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 30 00:42:39 2025</timestamp>
-			<uuid>{a2746d72-d526-44f4-b288-746c3fe6e9d6}</uuid>
-			<resultsname>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0.rdb</resultsname>
+			<timestamp>May 2 01:36:57 2025</timestamp>
+			<uuid>{93a8f1bc-c114-41f3-94bd-1587c49cd445}</uuid>
+			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
@@ -409,11 +409,11 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas1-13.esat.kuleuven.be_r1017765_004239994</localpsfdir>
-			<psfdir>/users/students/r1017765/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0</psfdir>
+			<localpsfdir>/tmp/pc-klas2-5.esat.kuleuven.be_r0884392_013657614</localpsfdir>
+			<psfdir>/users/students/r0884392/simulation/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0.log</runlog>
+			<runlog>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_SpecTb/maestro/results/maestro/Interactive.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<note>

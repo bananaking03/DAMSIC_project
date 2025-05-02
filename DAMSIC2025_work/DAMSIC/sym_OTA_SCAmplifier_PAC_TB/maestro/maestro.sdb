@@ -107,6 +107,12 @@
 					<output>DIFF PAC OUTPUT
 						<evalType>point</evalType>
 					</output>
+					<output>Output Noise (V/sqrt(Hz))
+						<evalType>point</evalType>
+					</output>
+					<output>Integrated Noise
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 				<origoptions>
 					<option>cell
@@ -292,6 +298,12 @@
 							<output>DIFF PAC OUTPUT
 								<evalType>point</evalType>
 							</output>
+							<output>Output Noise (V/sqrt(Hz))
+								<evalType>point</evalType>
+							</output>
+							<output>Integrated Noise
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 						<origoptions>
 							<option>cell
@@ -423,9 +435,9 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 13 20:16:05 2025</timestamp>
-			<uuid>{16674f52-b9d3-442e-8ce3-481d2c96e3e2}</uuid>
-			<resultsname>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
+			<timestamp>May 2 01:32:45 2025</timestamp>
+			<uuid>{4d1e463b-8796-4f6b-8619-9ad3a246b98d}</uuid>
+			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
@@ -433,11 +445,11 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas3-6.esat.kuleuven.be_r1017765_201605977</localpsfdir>
-			<psfdir>/users/students/r1017765/simulation/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0</psfdir>
+			<localpsfdir>/tmp/pc-klas2-5.esat.kuleuven.be_r0884392_013245890</localpsfdir>
+			<psfdir>/users/students/r0884392/simulation/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0.log</runlog>
+			<runlog>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/sym_OTA_SCAmplifier_PAC_TB/maestro/results/maestro/Interactive.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<note>

@@ -1,15 +1,13 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon Apr 21 12:40:53 2025 
+Current time: Fri May  2 01:36:14 2025 
 Best design point: 1
 Design specs: 
 	STB	corner	Nominal - 
-	DIFF PAC OUT		Error	No
-	CLK_PHI2		Error	No
 Design parameters: 
 
 Interactive.0
 Number of points completed: 1
-Number of simulation errors: 2
+Number of simulation errors: 0
 Interactive.0 completed. 
-Current time: Mon Apr 21 12:40:56 2025 
+Current time: Fri May  2 01:36:17 2025 

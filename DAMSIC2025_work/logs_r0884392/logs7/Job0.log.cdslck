@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      r0884392
 HostName                       pc-klas2-5.esat.kuleuven.be
-ProcessIdentifier              149691
-ProcessCreationTime_UTC        1742906146
-ProcessCreationTime_Readable   Tue Mar 25 13:35:46 2025 CET
+ProcessIdentifier              359662
+ProcessCreationTime_UTC        1746132154
+ProcessCreationTime_Readable   Thu May  1 22:42:34 2025 CEST
 AppIdentifier                  /esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/bin/64bit/virtuoso
 OSType                         lnx86
 ReasonForPlacingEditLock       Set lock by hiiLockFile
 FilePathUsedToEditLock         /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/logs_r0884392/logs7/Job0.log
-TimeEditLocked                 Tue Mar 25 13:35:46 2025 CET
+TimeEditLocked                 Thu May  1 22:42:35 2025 CEST

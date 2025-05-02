@@ -187,6 +187,12 @@
 					<output>phaseDegUnwrapped(VF("/OUTDM"))
 						<evalType>point</evalType>
 					</output>
+					<output>Loop Gain dB20
+						<evalType>point</evalType>
+					</output>
+					<output>Loop Gain Phase
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
@@ -429,6 +435,12 @@
 							<output>phaseDegUnwrapped(VF("/OUTDM"))
 								<evalType>point</evalType>
 							</output>
+							<output>Loop Gain dB20
+								<evalType>point</evalType>
+							</output>
+							<output>Loop Gain Phase
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
@@ -540,9 +552,9 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 30 03:46:40 2025</timestamp>
-			<uuid>{88afb983-dea5-4cb6-8d96-61595df203b9}</uuid>
-			<resultsname>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0.rdb</resultsname>
+			<timestamp>May 2 01:19:33 2025</timestamp>
+			<uuid>{ab604db2-406b-4640-a583-b73e3714bbe2}</uuid>
+			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
@@ -550,11 +562,11 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas1-13.esat.kuleuven.be_r1017765_034640006</localpsfdir>
-			<psfdir>/users/students/r1017765/simulation/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0</psfdir>
+			<localpsfdir>/tmp/pc-klas2-5.esat.kuleuven.be_r0884392_011933039</localpsfdir>
+			<psfdir>/users/students/r0884392/simulation/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0.log</runlog>
+			<runlog>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<note>

@@ -109,7 +109,7 @@
 						<value>100k</value>
 					</var>
 					<var>fsw
-						<value>60M</value>
+						<value>60k</value>
 					</var>
 					<var>Vin
 						<value>10m</value>
@@ -220,6 +220,12 @@
 					<output>ymin(((VT("/OUTDM") + (VT("/INDM") * 10)) / (VT("/INDM") * 10)))
 						<evalType>point</evalType>
 					</output>
+					<output>/OUTCM
+						<evalType>point</evalType>
+					</output>
+					<output>((VT("/OUTDM") - (VT("/INDM") * 10)) / (VT("/INDM") * 10))
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
@@ -239,7 +245,7 @@
 				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
-				<value>Replace</value>
+				<value>Append</value>
 			</plottingoption>
 			<plottingoption>plottype
 				<value>None</value>
@@ -259,10 +265,16 @@
 			<plottingoption>distributedplot_enabled
 				<value>no</value>
 			</plottingoption>
+			<plottingoption>autoplotmode
+				<value>Append</value>
+			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
 			<exploreroption>waveformtemplate
 				<value>(None)</value>
+			</exploreroption>
+			<exploreroption>autoplotmode
+				<value>Append</value>
 			</exploreroption>
 		</exploreroptions>
 		<incrementalsimsetup>
@@ -384,7 +396,7 @@
 								<value>100k</value>
 							</var>
 							<var>fsw
-								<value>60M</value>
+								<value>60k</value>
 							</var>
 							<var>Vin
 								<value>10m</value>
@@ -495,6 +507,12 @@
 							<output>ymin(((VT("/OUTDM") + (VT("/INDM") * 10)) / (VT("/INDM") * 10)))
 								<evalType>point</evalType>
 							</output>
+							<output>/OUTCM
+								<evalType>point</evalType>
+							</output>
+							<output>((VT("/OUTDM") - (VT("/INDM") * 10)) / (VT("/INDM") * 10))
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
@@ -514,7 +532,7 @@
 						<value>Auto</value>
 					</plottingoption>
 					<plottingoption>autoplotmode
-						<value>Replace</value>
+						<value>Append</value>
 					</plottingoption>
 					<plottingoption>useMaestroPlottingTemplate
 						<value>yes</value>
@@ -590,6 +608,9 @@
 					<exploreroption>waveformtemplate
 						<value>(None)</value>
 					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Append</value>
+					</exploreroption>
 				</exploreroptions>
 				<incrementalsimsetup>
 					<useincremental>0</useincremental>
@@ -606,9 +627,9 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 30 03:44:12 2025</timestamp>
-			<uuid>{d6ea85d9-e48e-422b-a6c5-262e84e1786f}</uuid>
-			<resultsname>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
+			<timestamp>May 2 00:39:31 2025</timestamp>
+			<uuid>{df012d37-36c9-48c4-8a12-5c5c27f2d6a4}</uuid>
+			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
@@ -616,11 +637,11 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas1-13.esat.kuleuven.be_r1017765_034412695</localpsfdir>
-			<psfdir>/users/students/r1017765/simulation/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/maestro/results/maestro/Interactive.0</psfdir>
+			<localpsfdir>/tmp/pc-klas2-5.esat.kuleuven.be_r0884392_003931253</localpsfdir>
+			<psfdir>/users/students/r0884392/simulation/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/users/students/r1017765/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/maestro/results/maestro/Interactive.0.log</runlog>
+			<runlog>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_STB_TB/maestro/results/maestro/Interactive.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<note>

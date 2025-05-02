@@ -77,6 +77,42 @@
 					<var>Vin
 						<value>0</value>
 					</var>
+					<var>b1
+						<value></value>
+					</var>
+					<var>b5
+						<value></value>
+					</var>
+					<var>b6
+						<value></value>
+					</var>
+					<var>length
+						<value></value>
+					</var>
+					<var>mult
+						<value></value>
+					</var>
+					<var>nf_Bias
+						<value></value>
+					</var>
+					<var>nf_Inp
+						<value></value>
+					</var>
+					<var>nf_M2
+						<value></value>
+					</var>
+					<var>nf_M3
+						<value></value>
+					</var>
+					<var>nf_M4
+						<value></value>
+					</var>
+					<var>nf_M5
+						<value></value>
+					</var>
+					<var>nf_M6
+						<value></value>
+					</var>
 				</vars>
 				<origoptions>
 					<option>cell
@@ -694,6 +730,42 @@
 							<var>Vin
 								<value>0</value>
 							</var>
+							<var>b1
+								<value></value>
+							</var>
+							<var>b5
+								<value></value>
+							</var>
+							<var>b6
+								<value></value>
+							</var>
+							<var>length
+								<value></value>
+							</var>
+							<var>mult
+								<value></value>
+							</var>
+							<var>nf_Bias
+								<value></value>
+							</var>
+							<var>nf_Inp
+								<value></value>
+							</var>
+							<var>nf_M2
+								<value></value>
+							</var>
+							<var>nf_M3
+								<value></value>
+							</var>
+							<var>nf_M4
+								<value></value>
+							</var>
+							<var>nf_M5
+								<value></value>
+							</var>
+							<var>nf_M6
+								<value></value>
+							</var>
 						</vars>
 						<origoptions>
 							<option>cell
@@ -1081,8 +1153,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 8 18:38:39 2025</timestamp>
-			<uuid>{df51609b-069d-495a-8d98-b71db977798c}</uuid>
+			<timestamp>May 1 21:13:40 2025</timestamp>
+			<uuid>{9b3253d7-b151-4077-b2cd-16aa86c8e8a2}</uuid>
 			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -1091,7 +1163,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vierre64.esat.kuleuven.be_r0884392_183839397</localpsfdir>
+			<localpsfdir>/tmp/pc-klas2-5.esat.kuleuven.be_r0884392_211340599</localpsfdir>
 			<psfdir>/users/students/r0884392/simulation/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/demo_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

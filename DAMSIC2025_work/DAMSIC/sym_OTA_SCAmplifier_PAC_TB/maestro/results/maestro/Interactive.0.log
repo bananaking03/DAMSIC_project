@@ -1,15 +1,16 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Sun Apr 13 20:16:06 2025 
+Current time: Fri May  2 01:32:46 2025 
 Best design point: 1
 Design specs: 
 	DAMSIC_sym_OTA_SCAmplifier_PAC_TB_1	corner	Nominal - 
+	CLK_PHI2		Error	No
 	VDC("/INP")		Error	No
 	VDC("/INN")		Error	No
 Design parameters: 
 
 Interactive.0
 Number of points completed: 1
-Number of simulation errors: 2
+Number of simulation errors: 3
 Interactive.0 completed. 
-Current time: Sun Apr 13 20:16:14 2025 
+Current time: Fri May  2 01:32:57 2025 

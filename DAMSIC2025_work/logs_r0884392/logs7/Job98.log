@@ -1,105 +1,121 @@
-\# Program start time:     UTC 2025.03.25 12:30:45.076
-\# Local time: CET (UTC+01:00) 2025.03.25 13:30:45.076
-\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 03/14/2023 19:53 (cpgsrv12) $
-\o Hierarchy:		/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/
-\o Sub version:		sub-version  IC6.1.8-64b.500.31  (64-bit addresses)
-\# Command line:	/esat/micas-data/software/Cadence/ic_6.1.8.310/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso3264 -mpshost pc-klas2-5.esat.kuleuven.be -davinciService DaVinciService_3264_1742895153 -log /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/logs_r0884392/logs7/Job98.log -licenseLockFileName /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/.tmp_r0884392/.pc-klas2-5.esat.kuleuven.be_3264 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 98
-\# Host name (type):	pc-klas2-5.esat.kuleuven.be (x86_64)
-\# Operating system:	Linux 5.14.0-503.31.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Mar 11 16:53:43 UTC 2025
-\# Linux /etc/issue:	\S
-\# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:8869 (1024x868)
-\# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			The X.Org Foundation
-\# Depth of Visual (Root):	24 (24)
-\# Number of Planes Used:	24
-\# X version:		11.0 (vendor release 12011000)
-\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
-\# 			current id 0x0, current max 0x1ffffa (2097146)
-\# Max data seg size:	     unlimited
-\# Max process size:	     unlimited
-\# Initial sbrk value:	        623 MB
-\# Available memory:	     42,844 MB
-\# System memory:	     48,245 MB
-\# Maximum memory size:	     47,740 MB
-\# Max mem available:	     42,962 MB
-\# Initial memory used:	        118 MB
-\#        process size:	      1,539 MB
-\# Thread usage limits (effective/default):	maxthreads 5166/5166 maxload 12.00/12.00
-\# Qt version:		5.9.1
-\# Window Manager:	other
-\# User Name:		r0884392
-\o Working Directory:	pc-klas2-5.esat.kuleuven.be:/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work
-\# Process Id:		142037
-\o 
-\o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
-\o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
-\o                          Reproduced with permission.
-\o 
-\o This Cadence Design Systems program and online documentation are
-\o proprietary/confidential information and may be disclosed/used only
-\o as authorized in a license agreement controlling such use and disclosure.
-\o 
-\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
-\o Use/reproduction/disclosure is subject to restriction
-\o set forth at FAR 1252.227-19 or its equivalent.
-\o Loading geView.cxt 
-\o Loading menuBuilder.cxt 
-\o Loading schView.cxt 
-\o Loading selectSv.cxt 
-\o Loading wireEdit.cxt 
-\o Loading pte2.cxt 
-\o Loading xlUI.cxt 
-\o Loading auCore.cxt 
-\o Loading vhdl.cxt 
-\o Loading seismic.cxt 
-\o Loading ci.cxt 
-\o Loading ams.cxt 
-\o Loading oasis.cxt 
-\o Loading analog.cxt 
-\o Loading asimenv.cxt 
-\o Loading dal.cxt 
-\o Loading awv.cxt 
-\o Loading socket.cxt 
-\o Loading par.cxt 
-\o Loading alvs.cxt 
-\o Loading caa.cxt 
-\o Loading amps.cxt 
-\o Loading adexlCore.cxt 
-\o Loading adexl.cxt 
-\o *Info*    Exporting services from client ... 
-\o 
-\o Loading adexlDM.cxt 
-\o Loading cpf.cxt 
-\o Loading cli.cxt 
-\o Loading lp.cxt 
-\# Memory report: using         253 MB, process size 1,798 MB at UTC 2025.03.25 12:30:48.982
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso3264, host=pc-klas2-5.esat.kuleuven.be). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
-\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 142037 within 90 seconds is being processed...
-\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [13:30:45.458626] Configured Lic search path (22.01-s002): 27002@license-extern.esat.kuleuven.be:/esat/micas-data/software/Cadence/ic_6.1.8.310/share/license/license.dat
-\o *Info*    Client has finished starting ... 
-\o 
-\o Loading vdsil.cxt 
-\p > 
-\# Loading perfDiag...
-\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 142037' to open it when Virtuoso freezes.
-\# (PerfDiag): Use backtrace from GLIBC.
-\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
-\# Available memory:         42,707 MB at UTC 2025.03.25 12:30:56.168
-\# Memory report: Maximum memory size now 42,994 MB at UTC 2025.03.25 12:30:56.168
-\# Thread usage report: 18 active threads, active load 1.40 at UTC 2025.03.25 12:30:56.168
-\o 
-\o *Info*    Received signal SIGTERM.
-\o 
-\o 
-\o Loading simui.cxt 
-\# Lic Summary:
-\# [13:34:08.422963] Cdslmd servers:27002@license-extern.esat.kuleuven.be:/esat/micas-data/software/Cadence/ic_6.1.8.310/share/license/license.dat
-\# [13:34:08.422986] Feature usage summary:
-\# Memory report: on exit            291 MB, process size 1,843 MB at UTC 2025.03.25 12:34:08.947
-\# Memory report: peak usage         291 MB, process size 1,843 MB
+
+
+
+	Library      = DAMSIC
+	Cell         = demo_SCAmplifier_STB_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.0
+	Results DB   = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0884392/simulation/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB
+	Results Loc  = /users/students/r0884392/simulation/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro/results/maestro
+	Project Dir  = /users/students/r0884392/simulation
+	Setup DB loc = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro
+	File Encoding = 0
+
+
+INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+
+
+
+
+
+
+
+
+Resetting statistical vars
+
+
+Setting var CP2 = "106.157112526539e-12"
+Setting var C_OTA = "100f"
+Setting var Cfb = "0.23p"
+Setting var Cin = "2.3025p"
+Setting var Cl = "2p"
+Setting var F_POLE2 = "1.5G"
+Setting var INCM = "0.55"
+Setting var OUTCMRef = "0.55"
+Setting var Vin = "0"
+Setting var Vmax = "100m"
+Setting var Vmin = "50m"
+Setting var alpha = "0.01"
+Setting var b1 = "700m"
+Setting var b5 = "1"
+Setting var b6 = "200m"
+Setting var fin = "100k"
+Setting var fsw = "60k"
+Setting var gm_OTA = "13m"
+Setting var length = "90n"
+Setting var mult = "1"
+Setting var nf_Bias = "4000"
+Setting var nf_Inp = "600"
+Setting var nf_M2 = "300"
+Setting var nf_M3 = "900"
+Setting var nf_M4 = "100"
+Setting var nf_M5 = "500"
+Setting var nf_M6 = "100"
+Setting var ro_OTA = "1.5M"
+Setting var ron = "5"
+Setting temp(T) = 27
+Setting var vdd = "1.1"
+
+
+
+
+
+
+generate netlist...
+Begin Incremental Netlisting May  2 00:42:45 2025
+End netlisting May  2 00:42:45 2025
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+
+Delete psf data in /users/students/r0884392/simulation/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+WARNING (OCN-6038): Results stb are not available for /users/students/r0884392/simulation/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB. Use results() for a list of available results.
+WARNING (OCN-6038): Results stb are not available for /users/students/r0884392/simulation/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB. Use results() for a list of available results.
+ERROR (EXPLORER-2709): Evaluation of output 'Loop Gain Phase' returned 'nil' for point:'1' test:'STB'
+	Expression:'phaseDegUnwrapped(getData("loopGain" ?result "stb"))'.
+Ensure that the definition of output is correct.
+
+WARNING (OCN-6038): Results stb are not available for /users/students/r0884392/simulation/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB. Use results() for a list of available results.
+WARNING (OCN-6038): Results stb are not available for /users/students/r0884392/simulation/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0/1/STB. Use results() for a list of available results.
+ERROR (EXPLORER-2709): Evaluation of output 'Loop Gain dB20' returned 'nil' for point:'1' test:'STB'
+	Expression:'db(mag(getData("loopGain" ?result "stb")))'.
+Ensure that the definition of output is correct.
+
+ERROR (EXPLORER-2709): Evaluation of output 'CLK_PHI2' returned 'nil' for point:'1' test:'STB'
+	Expression:'vtime('pss "/phi<2>")'.
+Ensure that the definition of output is correct.
+
+ERROR (EXPLORER-2708): Evaluation of output 'DIFF PAC OUT' failed for point:'1' test:'STB'
+	Expression:'(vh('pac "/VoutP") - vh('pac "/VoutN"))'
+	because of the following error(s)
+	*Error* difference: can't handle (nil - nil).
+Ensure that the definition of output is correct.
+
+
+*Info*    Run complete for Point ID (21 1) on testbench [ STB ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

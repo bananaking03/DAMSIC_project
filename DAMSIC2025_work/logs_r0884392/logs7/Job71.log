@@ -1,96 +1,113 @@
-*Info*    Exporting services from client ... 
-
-*Info*    Client has finished starting ... 
 
 
-
-*Info*    Configuring the session ...
 
 	Library      = DAMSIC
-	Cell         = SCAmplifier_Transient_TB
+	Cell         = symmetric_OTA_gain_boosted_SpecTb
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
 	State Name   = Interactive.0
-	Results DB   = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0.rdb
-	Results Dir  = /users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1
-	Results Loc  = /users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro
+	Results DB   = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0.rdb
+	Results Dir  = /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_gain_boosted_SpecTb_1
+	Results Loc  = /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro
 	Project Dir  = /users/students/r0884392/simulation
-	Setup DB loc = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/SCAmplifier_Transient_TB/maestro
+	Setup DB loc = /users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro
 	File Encoding = 0
 
 
 INFO (EXPLORER-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
 
-*Info*    The auto suspension is disabled.
 
 
 
 
 
 
-*Info*    Run start for Point ID (1 1) on testbench [
-          DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ].
 
 Resetting statistical vars
 
-*Info*    Setting parameter values ...
 
-Setting var C_OTA = "100f"
-Setting var Cfb = "0.23p"
-Setting var Cin = "2.3p"
-Setting var Cl = "2p"
-Setting var INCM = "0.5"
-Setting var OUTCMRef = "0.5"
-Setting var RSW_OFF = "100M"
-Setting var RSW_ON = "1"
-Setting var VSW_TH = "0.55"
-Setting var Vin = "50m"
-Setting var alpha = "0.01"
-Setting var fin = "100K"
-Setting var fsw = "60M"
-Setting var gm_OTA = "13m"
-Setting var ro_OTA = "1.5M"
+Setting var VINCM = "0.55"
+Setting var VOCMRef = "550m"
+Setting var capac = "0"
+Setting var curr_b = "300m"
+Setting var gb1_dc = "1"
+Setting var gb2_dc = "0.2"
+Setting var gb_1_C = "10p"
+Setting var gb_1_gm = "20m"
+Setting var gb_1_ro = "15k"
+Setting var gb_2_C = "10p"
+Setting var gb_2_gm = "20m"
+Setting var gb_2_ro = "15k"
+Setting var length = "90n"
+Setting var ln0 = "1.8u"
+Setting var ln2 = "1u"
+Setting var ln3 = "1u"
+Setting var ln4 = "1u"
+Setting var lp0 = "1u"
+Setting var lp1 = "200n"
+Setting var mult = "1"
+Setting var nf_Bias = "4000"
+Setting var nf_Inp = "600"
+Setting var nf_M2 = "300"
+Setting var nf_M3 = "900"
+Setting var nf_M4 = "100"
+Setting var nf_M5 = "500"
+Setting var nf_M6 = "100"
+Setting var nfn0 = "100"
+Setting var nfn2 = "1500"
+Setting var nfn3 = "100"
+Setting var nfn4 = "103"
+Setting var nfp0 = "100"
+Setting var nfp1 = "100"
+Setting var nm3_b = "786m"
+Setting var nm4_b = "506m"
+Setting var p2_diffbias = "0.7"
+Setting var pm0_b = "400m"
+Setting var pm1_b = "645m"
 Setting temp(T) = 27
 Setting var vdd = "1.1"
+Setting var wfn0 = "2.5u"
+Setting var wfn2 = "10u"
+Setting var wfn3 = "1u"
+Setting var wfn4 = "1u"
+Setting var wfp0 = "1.82u"
+Setting var wfp1 = "5.29u"
 
-*Info*    Netlist Directory =
-          /users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1/netlist
 
 
-*Info*    Data Directory    =
-          /users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1
 
 
-*Info*    Creating Netlist for Point ID (1 1)
 
 generate netlist...
-Begin Incremental Netlisting Mar 25 12:30:44 2025
-WARNING (OSSHNL-160): The primitive, 'analogLib/vsin/spectre', was not used in the last netlisting session in this
-current run directory. Therefore, re-netlisting all cell views where this
-primitive is instantiated.
+Begin Incremental Netlisting May  1 21:16:52 2025
+End netlisting May  1 21:16:52 2025
 
-WARNING (OSSHNL-195): The value of the property "nlAction" on instance 'V1' in cell 'SCAmplifier_Transient_TB', view
-'schematic', has changed since the last netlisting session in the current run
-directory. Some cell views will be re-netlisted.
-
-End netlisting Mar 25 12:30:44 2025
-
-Netlisting Statistics:
-	Number of components:   28
-
-	Elapsed time:          0.0s
-Errors: 0	Warnings: 0
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
       ...successful.
 compose simulator input file...
+WARNING (ADE-3022): Cannot create valid save statement in the netlist because the names of the following objects
+        in the schematic do not match with their corresponding names in the outputs setup:
+        /I8 
+        Change the names of these objects in the schematic and then create a netlist.
+        To avoid such issues, it is recommended not to modify the schematic after creating the outputs setup.
+        If it is required to do so, update the outputs setup.
+
+
       ...successful.
 
-*Info*    Running simulation on testbench [
-          DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ]
-          for Point ID (1 1).
 
-Delete psf data in /users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1/psf.
+Delete psf data in /users/students/r0884392/simulation/DAMSIC/symmetric_OTA_gain_boosted_SpecTb/maestro/results/maestro/Interactive.0/1/DAMSIC_symmetric_OTA_gain_boosted_SpecTb_1/psf.
 compose simulator input file...
+WARNING (ADE-3022): Cannot create valid save statement in the netlist because the names of the following objects
+        in the schematic do not match with their corresponding names in the outputs setup:
+        /I8 
+        Change the names of these objects in the schematic and then create a netlist.
+        To avoid such issues, it is recommended not to modify the schematic after creating the outputs setup.
+        If it is required to do so, update the outputs setup.
+
+
       ...successful.
 start simulator if needed...
       ...successful.
@@ -98,26 +115,17 @@ simulate...
 To view the simulator output, right-click on the test name, result 
 name, or any value in the "Results" tab of the Outputs section and 
 choose "Output Log" menu option.
-INFO (ADE-3071): Simulation completed successfully.
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
 reading simulation data...
       ...successful.
-*Info*    Client has finished evaluating ... 
-
-WARNING (OCN-6038): Results stb are not available for /users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1. Use results() for a list of available results.
-WARNING (OCN-6038): Results stb are not available for /users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1. Use results() for a list of available results.
-ERROR (EXPLORER-2709): Evaluation of output 'Loop Gain Phase' returned 'nil' for point:'1' test:'DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1'
-	Expression:'phaseDegUnwrapped(getData("loopGain" ?result "stb"))'.
-Ensure that the definition of output is correct.
-
-WARNING (OCN-6038): Results stb are not available for /users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1. Use results() for a list of available results.
-WARNING (OCN-6038): Results stb are not available for /users/students/r0884392/simulation/DAMSIC/SCAmplifier_Transient_TB/maestro/results/maestro/Interactive.0/1/DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1. Use results() for a list of available results.
-ERROR (EXPLORER-2709): Evaluation of output 'Loop Gain dB20' returned 'nil' for point:'1' test:'DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1'
-	Expression:'db(mag(getData("loopGain" ?result "stb")))'.
-Ensure that the definition of output is correct.
 
 
-*Info*    Run complete for Point ID (1 1) on testbench [
-          DAMSIC_SwitchedCapacitorAmplifier_TransientTestBench_1 ].
+
+
+
+
 
 
 

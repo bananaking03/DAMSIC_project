@@ -66,7 +66,7 @@
 						<value>1.1</value>
 					</var>
 					<var>fsw
-						<value>60M</value>
+						<value>60k</value>
 					</var>
 					<var>alpha
 						<value>0.01</value>
@@ -113,6 +113,12 @@
 					<var>nf_M6
 						<value>100</value>
 					</var>
+					<var>Vmax
+						<value>100m</value>
+					</var>
+					<var>Vmin
+						<value>50m</value>
+					</var>
 				</vars>
 				<origoptions>
 					<option>cell
@@ -135,6 +141,30 @@
 					<output>CLK_PHI2
 						<evalType>point</evalType>
 					</output>
+					<output>/OUTDM
+						<evalType>point</evalType>
+					</output>
+					<output>/OUTCM
+						<evalType>point</evalType>
+					</output>
+					<output>/INDM
+						<evalType>point</evalType>
+					</output>
+					<output>((VT("/OUTDM") - (VT("/INDM") * 10)) / (VT("/INDM") * 10))
+						<evalType>point</evalType>
+					</output>
+					<output>((VT("/OUTDM") + (VT("/INDM") * 10)) / (VT("/INDM") * 10))
+						<evalType>point</evalType>
+					</output>
+					<output>/VinP
+						<evalType>point</evalType>
+					</output>
+					<output>/phi&lt;1&gt;
+						<evalType>point</evalType>
+					</output>
+					<output>/phi&lt;2&gt;
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
@@ -155,7 +185,7 @@
 				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
-				<value>Replace</value>
+				<value>Append</value>
 			</plottingoption>
 			<plottingoption>plottype
 				<value>None</value>
@@ -176,7 +206,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>autoplotmode
-				<value>Replace</value>
+				<value>Append</value>
 			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
@@ -184,7 +214,7 @@
 				<value>(None)</value>
 			</exploreroption>
 			<exploreroption>autoplotmode
-				<value>Replace</value>
+				<value>Append</value>
 			</exploreroption>
 		</exploreroptions>
 		<incrementalsimsetup>
@@ -719,7 +749,7 @@
 								<value>1.1</value>
 							</var>
 							<var>fsw
-								<value>60M</value>
+								<value>60k</value>
 							</var>
 							<var>alpha
 								<value>0.01</value>
@@ -766,6 +796,12 @@
 							<var>nf_M6
 								<value>100</value>
 							</var>
+							<var>Vmax
+								<value>100m</value>
+							</var>
+							<var>Vmin
+								<value>50m</value>
+							</var>
 						</vars>
 						<origoptions>
 							<option>cell
@@ -788,6 +824,30 @@
 							<output>CLK_PHI2
 								<evalType>point</evalType>
 							</output>
+							<output>/OUTDM
+								<evalType>point</evalType>
+							</output>
+							<output>/OUTCM
+								<evalType>point</evalType>
+							</output>
+							<output>/INDM
+								<evalType>point</evalType>
+							</output>
+							<output>((VT("/OUTDM") - (VT("/INDM") * 10)) / (VT("/INDM") * 10))
+								<evalType>point</evalType>
+							</output>
+							<output>((VT("/OUTDM") + (VT("/INDM") * 10)) / (VT("/INDM") * 10))
+								<evalType>point</evalType>
+							</output>
+							<output>/VinP
+								<evalType>point</evalType>
+							</output>
+							<output>/phi&lt;1&gt;
+								<evalType>point</evalType>
+							</output>
+							<output>/phi&lt;2&gt;
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
@@ -808,7 +868,7 @@
 						<value>Auto</value>
 					</plottingoption>
 					<plottingoption>autoplotmode
-						<value>Replace</value>
+						<value>Append</value>
 					</plottingoption>
 					<plottingoption>useMaestroPlottingTemplate
 						<value>yes</value>
@@ -885,7 +945,7 @@
 						<value>(None)</value>
 					</exploreroption>
 					<exploreroption>autoplotmode
-						<value>Replace</value>
+						<value>Append</value>
 					</exploreroption>
 				</exploreroptions>
 				<incrementalsimsetup>
@@ -1153,8 +1213,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 21 12:40:53 2025</timestamp>
-			<uuid>{3bc18268-dca6-4c93-948a-7681d4eb9fbd}</uuid>
+			<timestamp>May 2 01:36:13 2025</timestamp>
+			<uuid>{3b6fe767-89c7-41bf-b972-b7f9b17c5a7d}</uuid>
 			<resultsname>/users/students/r0884392/Documents/DAMSIC_project/DAMSIC2025_work/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -1163,7 +1223,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/pc-klas1-2.esat.kuleuven.be_r0884392_124053012</localpsfdir>
+			<localpsfdir>/tmp/pc-klas2-5.esat.kuleuven.be_r0884392_013613703</localpsfdir>
 			<psfdir>/users/students/r0884392/simulation/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/DAMSIC/sym_OTA_SCAmplifier_STB_TB/maestro/results/maestro/Interactive.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
