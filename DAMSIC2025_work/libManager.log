@@ -515,3 +515,6 @@
 \a nrSetWindowVisibility(cdsLibManager "show")
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)
